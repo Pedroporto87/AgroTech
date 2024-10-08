@@ -1,0 +1,52 @@
+@import './mixins.scss';
+
+.contact-section {
+  @include flex-center(column, center, center);
+  padding: 20px;
+}
+
+.contact-container {
+  @include flex-center(row, space-between, center);
+  width: 80%;
+}
+
+.map-container {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.info-container {
+  flex: 1;
+  @include flex-center(column, center, center);
+}
+
+button {
+  margin-top: 10px;
+  @include button-style();
+}
+
+.modal {
+  @include modal-style();
+
+  .modal-content {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+}
