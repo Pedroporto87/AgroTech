@@ -11,8 +11,8 @@ const Navbar = () => {
           <ul className="dropdown-content">
             <li><a href="#quem-somos">Quem Somos</a></li>
             <li><a href="#historia">História</a></li>
-            <li><a href="#missao">Missão</a></li>
-            <li><a href="#valores">Valores</a></li>
+            <li><a href="#parceiros">Parceiros</a></li>
+            <li><a href="#missao-valores">Valores</a></li>
           </ul>
         </li>
         <li className="dropdown">

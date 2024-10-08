@@ -25,7 +25,7 @@ const partners = [
 
 const Parceiros = () => {
   return (
-    <section className="partners-section">
+    <section className="partners-section" id='parceiros'>
       <h1>Parceiros</h1>
       <div className="partners-card">
         {partners.map((partner, index) => (
