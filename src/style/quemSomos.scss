@@ -6,11 +6,11 @@ section {
     justify-content: center;
     align-items: center;
     width: 100%;
+    padding: 0px;
+    margin-bottom: 0px;
   
     .conteudo {
-      width: 100%;
-      max-width: 1000px; //para manter o texto centralizado e sem esticar demais
-      padding: 0 20px; // Adiciona um pouco de espaçamento lateral
+      width: 80%;
 
       h1{
         @include h1-style
@@ -26,6 +26,7 @@ section {
   
     .separador {
       width: 50%;
+      max-width: 700px;
       height: 3px;
       background-color: black;
     }

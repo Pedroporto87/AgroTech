@@ -3,6 +3,7 @@
 .partners-section {
   @include flex-center(column, center, center);
   padding: 20px;
+  margin-bottom: 0px;
 
   h1 {
     margin-bottom: 20px;

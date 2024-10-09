@@ -1,0 +1,35 @@
+@import './mixins';
+
+.missao {
+  display: grid;
+  grid-template-columns: repeat(3, 0.6fr);
+  width: 100%;
+  padding: 0;
+  gap: 20px;
+  margin: 0px;
+
+  .card {
+    background-color: rgb(251, 249, 244);
+    padding: 20px;
+    margin: 0;
+    position: relative;
+    height: 450px;
+    overflow: hidden;
+
+    h1 {
+      margin-bottom: 10px;
+      font-size: 25px;
+    }
+
+    p {
+      width: 300px;
+      line-height: 1.5;
+      background-color: rgb(212, 219, 177);
+      padding: 15px;
+      position: relative;
+      height: 300px; // Define uma altura consistente para todos os parágrafos
+      clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+      // O clip-path define a forma do pentágono
+    }
+  }
+}
