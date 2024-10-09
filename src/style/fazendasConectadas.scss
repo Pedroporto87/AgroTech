@@ -1,0 +1,66 @@
+.servicos {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    gap: 10px; // Espaçamento entre os elementos do grid
+    padding: 10px;
+    background-color: white; // Cor de fundo para a seção principal
+  
+    .servicos-titulo {
+      grid-column: 1 / 2; // Ocupa ambas as colunas
+      grid-row: 1 / 2; // Primeira linha
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      
+    }
+  
+    .servicos-img {
+      grid-column: 1 / 2; // Primeira coluna
+      grid-row: 2 / 3; // Segunda linha
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+      
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  
+    .servicos-p {
+      grid-column: 2 / 3; // Segunda coluna
+      grid-row: 1 / 4; // Ocupa da primeira à terceira linha
+      background-color: rgb(217, 219, 220);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      
+    }
+  
+    .servicos-subtitle {
+      grid-column: 1 / 2; // Primeira coluna
+      grid-row: 3 / 4; // Terceira linha
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 10px;
+    }
+  
+    .servicos-ul {
+      grid-column: 2 / 3; // Segunda coluna
+      grid-row: 3 / 4; // Terceira linha
+      background-color: rgb(217, 219, 220);
+      
+  
+      ul {
+        list-style-type: disc;
+        padding-left: 20px;
+      }
+    }
+  }

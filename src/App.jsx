@@ -7,6 +7,7 @@ import { QuemSomos } from "./components/quemSomos"
 import { Missao } from "./components/missao"
 import './App.css'
 import { DataCenter } from "./components/dataCenter"
+import { FazendasConectadas } from "./components/fazendasConectadas"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <QuemSomos />
       <Missao />
       <DataCenter />
+      <FazendasConectadas />
       <Parceiros/>
       <Contact />
       <Footer />
