@@ -1,0 +1,32 @@
+@import '../style/mixins';
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  
+    .conteudo {
+      width: 100%;
+      padding: 0 20px; // Adiciona um pouco de espaçamento lateral
+
+      h1{
+        @include h1-style
+      }
+
+      p {
+        width: 100%;
+        line-height: 30px;
+        text-align: inherit; // Ocupa toda a largura
+        font-weight: 500;
+      }
+    }
+  
+    .separador {
+      width: 50%;
+      height: 3px;
+      background-color: black;
+      margin: 20px 0; // Espaçamento vertical para separar do conteúdo
+    }
+  }

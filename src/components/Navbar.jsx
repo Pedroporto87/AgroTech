@@ -4,7 +4,7 @@ import '../style/navbar.scss';
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <h1>Minha Aplicação</h1>
+      <h1>Logo</h1>
       <ul className="nav-links">
         <li className="dropdown">
           <a href="#quem-somos">Quem Somos</a>
@@ -26,13 +26,6 @@ const Navbar = () => {
           </ul>
         </li>
         <li><a href="#servicos">Serviços</a></li>
-        <li className="dropdown">
-          <a href="#governancia">Governança</a>
-          <ul className="dropdown-content">
-            <li><a href="#arquivo1">Download Arquivo 1</a></li>
-            <li><a href="#arquivo2">Download Arquivo 2</a></li>
-          </ul>
-        </li>
         <li><a href="#contato">Contato</a></li>
       </ul>
     </nav>

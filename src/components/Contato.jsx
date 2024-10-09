@@ -18,7 +18,7 @@ const Contact = () => {
         <div className="info-container">
           <p>Setor Smas Trecho 3 Lote 3, 203</p>
           <p>Setores Complementares, Brasilia - DF</p>
-          <p>70.610-053.</p>
+          <p>CEP: 70.610-053.</p>
           <button onClick={toggleModal}>Contato</button>
         </div>
       </div>

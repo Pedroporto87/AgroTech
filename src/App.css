@@ -1,9 +1,14 @@
+@font-face {
+  font-family: 'Nunito';
+  src: url(../src/style/font/Nunito-VariableFont_wght.ttf);
+}
+
 html {
     scroll-behavior: smooth;
   }
   
   body {
-    font-family: Arial, sans-serif;
+    font-family: 'Nunito';
     margin: 0;
     padding: 0;
   }
