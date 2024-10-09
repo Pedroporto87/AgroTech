@@ -9,6 +9,7 @@ section {
   
     .conteudo {
       width: 100%;
+      max-width: 1000px; //para manter o texto centralizado e sem esticar demais
       padding: 0 20px; // Adiciona um pouco de espaçamento lateral
 
       h1{
@@ -27,6 +28,5 @@ section {
       width: 50%;
       height: 3px;
       background-color: black;
-      margin: 20px 0; // Espaçamento vertical para separar do conteúdo
     }
   }
