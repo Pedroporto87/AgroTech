@@ -19,7 +19,14 @@ const Navbar = () => {
           <ul className="dropdown-content">
             <li><a href="#datacenter">Datacenter</a></li>
             <li><a href="#fabrica-software">Fábrica de Software</a></li>
-            <li><a href="#telemetria">Telemetria</a></li>
+            <li className="dropdown-submenu">
+                Telemetria e Controle
+                <ul className="submenu-content">
+                    <li><a href="#maquinas-equipamentos">Máquinas e Equipamentos</a></li>
+                    <li><a href="#rebanhos">Rebanhos</a></li>
+                    <li><a href="#gestao-ativos">Gestão de Ativos</a></li>
+                </ul>
+                </li>
             <li><a href="#geo">Geo</a></li>
             <li><a href="#micro-usinas">Micro Usinas</a></li>
           </ul>
