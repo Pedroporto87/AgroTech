@@ -6,6 +6,7 @@ import Parceiros from './components/Parceiros'
 import { QuemSomos } from "./components/quemSomos"
 import { Missao } from "./components/missao"
 import './App.css'
+import { DataCenter } from "./components/dataCenter"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Banner />
       <QuemSomos />
       <Missao />
+      <DataCenter />
       <Parceiros/>
       <Contact />
       <Footer />
