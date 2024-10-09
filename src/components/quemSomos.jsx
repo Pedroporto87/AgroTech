@@ -1,7 +1,7 @@
 import '../style/quemSomos.scss'
 export const QuemSomos = () => {
   return (
-    <section>
+    <section id='quem-somos'>
         <div className="conteudo">
             <h1>A Empresa</h1>
             <p>A AgroTech Global foi desenvolvido para atender as necessidades do maior mercado nacional, o AGRONEGÓCIO</p>
