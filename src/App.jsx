@@ -10,6 +10,7 @@ import { DataCenter } from "./components/dataCenter"
 import { FazendasConectadas } from "./components/fazendasConectadas"
 import { MaqEqui } from "./components/maq-equi"
 import { FabricaSoftware } from "./components/fabricaSoftware"
+import { Rebanhos } from './components/rebanhos'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <DataCenter />
       <FabricaSoftware />
       <MaqEqui />
+      <Rebanhos />
       <FazendasConectadas />
       <Parceiros/>
       <Contact />

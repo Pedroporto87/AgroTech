@@ -1,4 +1,5 @@
 import '../style/fazendasConectadas.scss';
+import Truck  from '../img/truck.png'
 
 export const FazendasConectadas = () => {
   return (
@@ -9,7 +10,7 @@ export const FazendasConectadas = () => {
           <p>Centro de Pesquisa e formação Profissional</p>
         </section>
         <section className='servicos-img'>
-          <img src="../img/scania-condicoes-2020-011.jpg" alt="caminhao" />
+          <img src={Truck} alt="caminhao" />
         </section>
         <section className='servicos-subtitle'>
           <h1>AgroTruk</h1>

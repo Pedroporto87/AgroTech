@@ -1,10 +1,11 @@
 import '../style/datacenter.scss';
+import Mapa from '../img/Imagem 01 - Datacenter.png'
 
 export const DataCenter = () => {
   return (
     <section id="datacenter" className='datacenter'>
       <section className='image-section'>
-        <img src='../img/hand-drawn-of-brazil-3d-map-png.webp' alt="mapa do Brasil"/>
+        <img src={Mapa} alt="mapa do Brasil"/>
       </section>
       <section className='text-section'>
         <section className='header'>
