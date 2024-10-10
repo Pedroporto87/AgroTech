@@ -9,7 +9,7 @@ export const FazendasConectadas = () => {
           <p>Centro de Pesquisa e formação Profissional</p>
         </section>
         <section className='servicos-img'>
-          <img src="../../public/scania-condicoes-2020-011.jpg" alt="caminhao" />
+          <img src="../img/scania-condicoes-2020-011.jpg" alt="caminhao" />
         </section>
         <section className='servicos-subtitle'>
           <h1>AgroTruk</h1>
