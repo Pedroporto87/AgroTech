@@ -8,6 +8,7 @@ import { Missao } from "./components/missao"
 import './App.css'
 import { DataCenter } from "./components/dataCenter"
 import { FazendasConectadas } from "./components/fazendasConectadas"
+import { MaqEqui } from "./components/maq-equi"
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <QuemSomos />
       <Missao />
       <DataCenter />
+      <MaqEqui />
       <FazendasConectadas />
       <Parceiros/>
       <Contact />

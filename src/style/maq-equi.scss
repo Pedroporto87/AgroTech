@@ -1,0 +1,50 @@
+#maquinas-equipamentos {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-image: url('../img/aerial-view-summer-harvest-combi.jpg'); 
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  
+    .maq-equi-header {
+      flex: 1; // Ocupa uma parte do espaço disponível
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+  
+      h1 {
+        font-size: 35px;
+        margin-bottom: 10px; // Espaçamento abaixo do título
+      }
+  
+      p {
+        font-size: 25px;
+        margin: 0; // Remove margens padrão
+      }
+    }
+  
+    .maq-equi-text {
+      flex: 1; // Ocupa uma parte do espaço disponível
+      background-color: rgba(0, 0, 0, 0.267); // Fundo preto com 70% de transparência
+      color: white; // Texto em branco para contraste
+      padding: 20px; // Espaçamento interno para o texto
+  
+      p {
+        font-size: 25px;
+        margin-bottom: 15px; // Espaçamento entre parágrafos
+      }
+  
+      ul {
+        list-style-type: disc;
+        padding-left: 20px; // Espaçamento à esquerda para a lista
+        font-size: 25px;
+  
+        li {
+          margin-bottom: 10px; // Espaçamento entre itens da lista
+        }
+      }
+    }
+  }

@@ -31,7 +31,12 @@ const Navbar = () => {
             <li><a href="#micro-usinas">Micro Usinas</a></li>
           </ul>
         </li>
-        <li><a href="#servicos">Serviços</a></li>
+        <li className="dropdown">
+          <a href="#solucoes">Serviços</a>
+            <ul className="dropdown-content">
+              <li><a href="#servicos">Fazendas Conectadas</a></li>
+            </ul>
+          </li>
         <li><a href="#contato">Contato</a></li>
       </ul>
     </nav>
