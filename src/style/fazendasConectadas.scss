@@ -1,66 +1,67 @@
 .servicos {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 2fr 1fr;
-    gap: 10px; // Espaçamento entre os elementos do grid
-    padding: 10px;
+    display: flex;
+    flex-direction: row;
     background-color: white; // Cor de fundo para a seção principal
   
-    .servicos-titulo {
-      grid-column: 1 / 2; // Ocupa ambas as colunas
-      grid-row: 1 / 2; // Primeira linha
-      background-color: white;
+    .servicos-esquerda {
+      flex: 2; // Ocupa 2 partes do espaço disponível
       display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      
-    }
+      flex-direction: column;
   
-    .servicos-img {
-      grid-column: 1 / 2; // Primeira coluna
-      grid-row: 2 / 3; // Segunda linha
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: white;
-      
-      img {
-        max-width: 100%;
-        height: auto;
+      .servicos-titulo, .servicos-subtitle {
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 35px;
+        line-height: 1.5; // Ajuste para melhorar a legibilidade
+        padding: 10px; // Adiciona espaçamento interno
+      }
+  
+      .servicos-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        padding: 0;
+  
+        img {
+          max-width: 100%;
+          height: auto;
+        }
       }
     }
   
-    .servicos-p {
-      grid-column: 2 / 3; // Segunda coluna
-      grid-row: 1 / 4; // Ocupa da primeira à terceira linha
-      background-color: rgb(217, 219, 220);
+    .servicos-direita {
+      flex: 1; // Ocupa 1 parte do espaço disponível
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      
-    }
-  
-    .servicos-subtitle {
-      grid-column: 1 / 2; // Primeira coluna
-      grid-row: 3 / 4; // Terceira linha
-      background-color: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      padding: 10px;
-    }
-  
-    .servicos-ul {
-      grid-column: 2 / 3; // Segunda coluna
-      grid-row: 3 / 4; // Terceira linha
+      justify-content: space-between; // Distribui o espaço entre os elementos
+      align-self: stretch;
       background-color: rgb(217, 219, 220);
-      
+      padding: 20px; // Adiciona espaçamento interno
   
-      ul {
-        list-style-type: disc;
-        padding-left: 20px;
+      .servicos-p {
+        flex: 1; // Permite que o conteúdo ocupe o espaço disponível
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        font-size: 24px;
+        
+        max-width: 100%;
+  
+        p {
+          margin-bottom: 12px;
+        }
+      }
+  
+      .servicos-ul {
+        ul {
+          list-style-type: disc;
+          padding-left: 20px; // Adiciona espaçamento à esquerda para a lista
+          font-size: 24px;
+        }
       }
     }
   }
