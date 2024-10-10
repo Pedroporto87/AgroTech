@@ -9,6 +9,7 @@ import './App.css'
 import { DataCenter } from "./components/dataCenter"
 import { FazendasConectadas } from "./components/fazendasConectadas"
 import { MaqEqui } from "./components/maq-equi"
+import { FabricaSoftware } from "./components/fabricaSoftware"
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <QuemSomos />
       <Missao />
       <DataCenter />
+      <FabricaSoftware />
       <MaqEqui />
       <FazendasConectadas />
       <Parceiros/>

@@ -1,0 +1,48 @@
+#fabrica-software {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; // Alinha os itens no topo
+    width: 100%; // Garante que a seção ocupe toda a largura disponível
+  
+    .fabrica-text {
+      background-color: rgb(207, 226, 162); // Cor de fundo especificada
+      padding: 20px; // Espaçamento interno para o texto
+      box-sizing: border-box; // Inclui padding e border no cálculo de largura
+  
+      h1 {
+        font-size: 35px; // Tamanho da fonte do título
+        margin-bottom: 15px; // Espaçamento abaixo do título
+      }
+  
+      .p-title {
+        font-size: 25px; // Tamanho da fonte do parágrafo
+        margin-left: 30px; // Afastamento de 30px da esquerda
+        margin-bottom: 15px;
+        margin-top: 0px; // Espaçamento abaixo do título
+      }
+  
+      p {
+        font-size: 25px; // Tamanho da fonte dos parágrafos
+        margin-bottom: 15px; // Espaçamento entre parágrafos
+      }
+  
+      ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        list-style-type: disc;
+         // Espaçamento à esquerda para a lista
+        font-size: 25px;
+  
+        li {
+          margin-bottom: 10px; // Espaçamento entre itens da lista
+        }
+      }
+    }
+  
+    .section-img {
+      flex: 1; // Ocupa metade do espaço disponível
+      background-color: white; // Cor de fundo branca
+    }
+  }
