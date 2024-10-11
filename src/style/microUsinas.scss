@@ -1,18 +1,22 @@
-.usina-header{
+.usina-header {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 30px;
-    color: rgb(17,91,47);
-    h1{
+    justify-content: flex-start; // Ajuste conforme necessário
+    align-items: flex-start; // Alinha verticalmente ao centro
+    
+    width: 100%;
+    color: rgb(17, 91, 47);
+
+    h1 {
         font-size: 35px;
         margin-bottom: 10px;
+        padding: 20px 0 0 20px;
     }
-    p{
+
+    p {
         font-size: 25px;
         margin: 0;
-        padding: 0;
-        line-height: 15px;
+        padding: 0 0 0 20px;
+        line-height: 1.2; // Ajustado para melhorar a legibilidade
     }
 }
 
@@ -74,19 +78,20 @@
         align-items: flex-start;
         width: 50%;
         height: 100%;
-        padding: 20px;
         font-size: 25px;
         line-height: 35px;
       
         h1 {
           margin: 0;
           padding-bottom: 10px;
+          padding: 20px;
         }
       
         .usina-p {
           flex: 1; // Permite que esta seção ocupe o espaço disponível
           p {
             margin: 10px 0;
+            padding: 20px;
           }
         }
       
