@@ -1,4 +1,5 @@
 
+import { FaLinkedin, FaInstagram } from 'react-icons/fa6';
 import '../style/footer.scss';
 
 const Footer = () => {
@@ -39,10 +40,13 @@ const Footer = () => {
             </ul>
           </li>
         </ul>
+        <div className="compliance-section">
+          <a href="/politica-seguranca.pdf" download>Política de Segurança</a>
+          <a href="/politica-compliance.pdf" download>Política de Compliance</a>
+        </div>
         <div className="social-media">
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
-          <a href="https://www.linkedin.com/company/agrotech-data-center/" target="_blank" rel="noopener noreferrer">Linkedin</a>
-          <a href="https://www.instagram.com/agrotech.global/" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="https://www.linkedin.com/company/agrotech-data-center/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+          <a href="https://www.instagram.com/agrotech.global/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
         </div>
       </div>
     </footer>
