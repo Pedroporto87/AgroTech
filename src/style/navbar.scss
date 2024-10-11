@@ -1,7 +1,7 @@
-$navbar-bg-color: #333;
-$dropdown-bg-color: #444;
+$navbar-bg-color: rgb(2, 42, 12);
+$dropdown-bg-color: rgba(206, 225, 162);
 $link-color: white;
-$hover-bg-color: #555;
+$hover-bg-color: rgb(25, 92, 51);
 $padding: 1rem;
 
 @mixin flex-center($justify: space-between, $align: center) {
@@ -14,20 +14,26 @@ $padding: 1rem;
   color: $link-color;
   text-decoration: none;
   padding: 0.5rem;
+  list-style: none;
 }
 
 .navbar {
   background-color: $navbar-bg-color;
   color: $link-color;
   padding: $padding;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   @include flex-center();
 
   .nav-links {
     list-style: none;
-    @include flex-center(flex-start);
+    
+    @include flex-center(center); // Centraliza os links
 
     a {
       @include link-style;
+      padding: 0 30px;
     }
 
     .dropdown {
@@ -40,11 +46,14 @@ $padding: 1rem;
         min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
         z-index: 1;
+        list-style: none;
+        padding: 0; // Remove padding extra
 
         a {
           @include link-style;
           display: block;
-          padding: 12px 16px;
+          padding: 8px 16px; // Ajusta o padding para centralizar
+          text-align: center; // Centraliza o texto
 
           &:hover {
             background-color: $hover-bg-color;
@@ -55,6 +64,26 @@ $padding: 1rem;
       &:hover .dropdown-content {
         display: block;
       }
+    }
+  }
+
+  .social-links {
+    @include flex-center(center); // Centraliza os ícones de redes sociais
+
+    a {
+      @include link-style;
+      margin: 0 10px;
+      font-size: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      svg { // Aplica o estilo diretamente aos ícones SVG
+        transition: box-shadow 0.3s ease; // Transição suave para o efeito de hover
+        &:hover {
+          color: green; // Efeito de sombra ao passar o mouse
+        }
+      }
+      
     }
   }
 }

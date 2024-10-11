@@ -1,4 +1,4 @@
-
+import { FaLinkedin, FaInstagram } from "react-icons/fa6";
 import '../style/navbar.scss';
 
 const Navbar = () => {
@@ -39,6 +39,10 @@ const Navbar = () => {
           </li>
         <li><a href="#contato">Contato</a></li>
       </ul>
+      <div className="social-links">
+        <a href="https://www.linkedin.com/company/agrotech-data-center/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+        <a href="https://www.instagram.com/agrotech.global/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+      </div>
     </nav>
   );
 };
