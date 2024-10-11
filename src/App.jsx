@@ -11,6 +11,7 @@ import { FazendasConectadas } from "./components/fazendasConectadas"
 import { MaqEqui } from "./components/maq-equi"
 import { FabricaSoftware } from "./components/fabricaSoftware"
 import { Rebanhos } from './components/rebanhos'
+import { MicroUsinas } from "./components/microUsinas"
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <FabricaSoftware />
       <MaqEqui />
       <Rebanhos />
+      <MicroUsinas />
       <FazendasConectadas />
       <Parceiros/>
       <Contact />

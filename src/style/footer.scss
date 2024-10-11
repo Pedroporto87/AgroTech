@@ -12,15 +12,18 @@
     flex-wrap: wrap;
     width: 100%;
     height: auto;
+    list-style: none;
 
     .footer-links {
       list-style: none;
       padding: 0;
       margin: 0;
+      
       @include flex-center(flex-start);
 
       a {
         @include link-style;
+        
       }
 
       .dropdown {
@@ -29,19 +32,25 @@
         .dropdown-content {
           display: none;
           position: absolute;
-          background-color: $dropdown-bg-color;
+          background-color: rgb(228, 235, 158);
           min-width: 160px;
           box-shadow: 0px -8px 16px 0px rgba(0, 0, 0, 0.2); // Ajusta a sombra para cima
           z-index: 1;
-          bottom: 100%; // Faz o dropdown abrir para cima
+          bottom: 100%;
+          list-style: none; 
+          padding: 0;
+          
 
           a {
             @include link-style;
             display: block;
             padding: 12px 16px;
+            color:$hover-bg-color;
+            
 
             &:hover {
               background-color: $hover-bg-color;
+              color: white;
             }
           }
         }
