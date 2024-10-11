@@ -41,8 +41,38 @@
       }
     }
   
-    .section-img {
-      flex: 1; // Ocupa metade do espaço disponível
-      background-color: white; // Cor de fundo branca
-    }
+    .fabrica-img {
+        position: relative; // Define o contêiner como relativo
+        width: 100%;
+        height: auto; // Define uma altura para o contêiner de imagens
+        background-color: white; // Cor de fundo branca
+    
+        .fabrica-1 {
+          position: absolute;
+          top: 0;
+          left: -10%;
+        }
+    
+        .fabrica-2 img{
+            position: absolute;
+            top: 50%;
+            right: 0;
+            transform: translateY(70%) translateX(-10%); // Centraliza verticalmente no eixo Y
+          }
+        
+          .fabrica-3 img{
+            position: absolute;
+            top: 100%;
+            // Posiciona no fundo do contêiner
+            left: -30%; // Desloca paraa esquerda
+            transform: translateY(290%);
+            max-width: 90%;
+            
+          }
+    
+        img {
+          max-width: 70%; // Garante que as imagens não ultrapassem o contêiner
+          height: auto; // Mantém a proporção das imagens
+        }
+      }
   }
