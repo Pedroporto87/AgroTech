@@ -60,7 +60,9 @@ $padding: 1rem;
             color: white;
           }
         }
-        
+        .dropdown-submenu{
+          color:$hover-bg-color;
+        }
       }
 
       &:hover .dropdown-content {

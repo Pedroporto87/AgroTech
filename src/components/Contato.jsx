@@ -29,12 +29,26 @@ const Contact = () => {
             <span className="close" onClick={toggleModal}>X</span>
             <img></img>
             <form>
-              <label>Email:</label>
-              <input type="email" required />
-              <label>Telefone:</label>
-              <input type="tel" required />
-              <label>Mensagem:</label>
-              <textarea style={{ resize: 'none' }} required></textarea>
+              <label htmlFor='name'>Nome:*</label>
+              <input type="text" name='name'required />
+              <label htmlFor='email'>Email Corporativo:*</label>
+              <input type="email" name='email'required />
+              <label htmlFor='telefone'>Telefone:*</label>
+              <input type="text" name='telefone'required />
+              <label htmlFor="cargo">Cargo:*</label>
+              <select name="cargo" id="cargo" >
+                <option value="">Cargo</option>
+                <option value="Estagiário">Estagiário</option>
+                <option value="Assistente">Assistente</option>
+                <option value="Analista">Analista</option>
+                <option value="Coordenador">Coordenador</option>
+                <option value="Gerente">Gerente</option>
+                <option value="Diretor">Diretor</option>
+                <option value="CEO/Proprietário">CEO/Proprietário</option>
+                <option value="Outro">Outro</option>
+              </select>
+              <label htmlFor='msg'>Mensagem:*</label>
+              <textarea style={{ resize: 'none' }} name='msg' required></textarea>
               <button type="submit">Enviar</button>
             </form>
           </div>
