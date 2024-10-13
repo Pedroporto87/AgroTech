@@ -23,9 +23,8 @@
 .micro-usina {
     display: flex;
     flex-direction: row;
-    width: 100vw;
-    height: 120vh;
-    background-color: rgb(212, 219, 177);
+    width: 100%;
+    height: auto;
     color: rgb(2, 42, 12);
   
     .usina-grid {
@@ -80,6 +79,8 @@
         height: 100%;
         font-size: 25px;
         line-height: 35px;
+        padding: 20px;
+        background-color: rgb(212, 219, 177);
       
         h1 {
           margin: 0;
@@ -88,7 +89,7 @@
         }
       
         .usina-p {
-          flex: 1; // Permite que esta seção ocupe o espaço disponível
+        //   flex: 1; // Permite que esta seção ocupe o espaço disponível
           p {
             margin: 10px 0;
             padding: 20px;
@@ -104,7 +105,8 @@
           margin-top: 25px;
       
           .usina-uf7, .usina-itens {
-            margin-right: 20px;
+            padding: 20px;
+            // margin-right: 20px;
       
             h1 {
               margin: 0;
@@ -118,6 +120,7 @@
       
               li {
                 margin-bottom: 5px;
+                color: rgb(17, 91, 47)
               }
             }
           }

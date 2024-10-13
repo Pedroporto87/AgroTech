@@ -2,6 +2,9 @@
 
 .contact-section {
   @include flex-center(column, center, center);
+  h1{
+    font-size: 35px
+  }
 }
 
 .contact-container {
@@ -43,7 +46,7 @@ button {
   }
 
   .close {
-    position: absolute;
+    color: rgb(17, 91, 47);
     top: 10px;
     right: 10px;
     cursor: pointer;
