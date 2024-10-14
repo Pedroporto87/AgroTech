@@ -1,0 +1,84 @@
+#geo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  
+    .geo-white {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 20px; // Adiciona algum espaçamento interno
+  
+      h1 {
+        font-size: 35px;
+        text-align: center;
+        margin-bottom: 0px;
+        font-weight: 700;
+      }
+  
+      p {
+        font-size: 25px;
+        text-align: center;
+        margin-top: 5px;
+      }
+  
+      .geo-img {
+        display: flex;
+        justify-content: flex-end;
+  
+        img {
+          max-width: 100%;
+          height: auto;
+        }
+      }
+  
+      .geo-ul {
+        display: flex;
+        justify-content: flex-start;
+  
+        ul {
+          font-size: 20px;
+          color: rgb(17, 91, 47);;
+          padding: 15px;
+        }
+      }
+  
+      .geo-card {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+  
+        img {
+          width: 30%; // Ajusta para que todos os cards tenham o mesmo tamanho
+          padding: 10px; // Adiciona espaçamento interno
+        }
+      }
+    }
+  
+    .geo-green {
+      width: 50%;
+      background-color: rgb(17, 91, 47);
+      color: white;
+      padding: 20px; // Adiciona algum espaçamento interno
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  
+      p {
+        font-size: 35px;
+        text-align: center;
+        margin-bottom: 20px;
+        color: white;
+        font-weight: 700;
+      }
+  
+      ul {
+        font-size: 25px;
+        color: white;
+        padding: 15px;
+        margin: 0;
+      }
+    }
+  }
