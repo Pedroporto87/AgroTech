@@ -24,36 +24,60 @@ const Contact = () => {
       </div>
 
       {isModalOpen && (
-        <div className="modal">
-          <div className="modal-content">
-            <span className="close" onClick={toggleModal}>X</span>
-            <img></img>
-            <form>
-              <label htmlFor='name'>Nome:*</label>
-              <input type="text" name='name'required />
-              <label htmlFor='email'>Email Corporativo:*</label>
-              <input type="email" name='email'required />
-              <label htmlFor='telefone'>Telefone:*</label>
-              <input type="text" name='telefone'required />
-              <label htmlFor="cargo">Cargo:*</label>
-              <select name="cargo" id="cargo" >
-                <option value="">Cargo</option>
-                <option value="Estagiário">Estagiário</option>
-                <option value="Assistente">Assistente</option>
-                <option value="Analista">Analista</option>
-                <option value="Coordenador">Coordenador</option>
-                <option value="Gerente">Gerente</option>
-                <option value="Diretor">Diretor</option>
-                <option value="CEO/Proprietário">CEO/Proprietário</option>
-                <option value="Outro">Outro</option>
-              </select>
-              <label htmlFor='msg'>Mensagem:*</label>
-              <textarea style={{ resize: 'none' }} name='msg' required></textarea>
-              <button type="submit">Enviar</button>
-            </form>
+  <div className="modal">
+    <div className="modal-content">
+      <span className="close" onClick={toggleModal}>X</span>
+      <img alt="Imagem do Modal" />
+      <form>
+        <div className="form-row">
+          <div className="form-column">
+            <label htmlFor='name'>Nome:*</label>
+            <input type="text" name='name' required />
+
+            <label htmlFor='email'>Email Corporativo:*</label>
+            <input type="email" name='email' required />
+
+            <label htmlFor='telefone'>Telefone:*</label>
+            <input type="text" name='telefone' required />
+          </div>
+          <div className="form-column">
+            <label htmlFor="cargo">Cargo:*</label>
+            <select name="cargo" id="cargo" className='cargo'>
+              <option value="">Cargo</option>
+              <option value="Estagiário">Estagiário</option>
+              <option value="Assistente">Assistente</option>
+              <option value="Analista">Analista</option>
+              <option value="Coordenador">Coordenador</option>
+              <option value="Gerente">Gerente</option>
+              <option value="Diretor">Diretor</option>
+              <option value="CEO/Proprietário">CEO/Proprietário</option>
+              <option value="Outro">Outro</option>
+            </select>
+
+            <label htmlFor='msg'>Mensagem:*</label>
+            <textarea style={{ resize: 'none' }} name='msg' required></textarea>
           </div>
         </div>
-      )}
+
+        <div className='comunicacoes'>
+          <input type="checkbox" id="comunicacoes" name="comunicacoes" />
+          <label htmlFor="comunicacoes">
+            Eu concordo em receber comunicações e ofertas personalizadas da Agrotech.
+          </label>
+        </div>
+
+        <div className='politica'>
+          <input type="checkbox" id="politica" name="politica" />
+          <label htmlFor="politica">
+            Li e concordo com a <a href="/politica-seguranca.pdf">Política de Privacidade</a> da Senior, que pode usar as informações aqui fornecidas por mim para entrar em contato comigo, via e-mail, telefone ou whatsapp, para ações de natureza comercial. Posso revogar meu consentimento a qualquer momento enviando um e-mail para agrotech@email.com.
+          </label>
+        </div>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </div>
+)}
     </section>
   );
 };
