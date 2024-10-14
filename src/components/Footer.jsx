@@ -1,5 +1,4 @@
-
-import { FaLinkedin, FaInstagram } from 'react-icons/fa6';
+import { FaLinkedin, FaInstagram, FaChevronDown } from 'react-icons/fa6';
 import '../style/footer.scss';
 
 const Footer = () => {
@@ -8,7 +7,7 @@ const Footer = () => {
       <div className="footer-content">
         <ul className="footer-links">
           <li className="dropdown">
-            <a href="#quem-somos">Quem Somos</a>
+            <a href="#quem-somos">Quem Somos <FaChevronDown /></a>
             <ul className="dropdown-content">
               <li><a href="#quem-somos">Quem Somos</a></li>
               <li><a href="#historia">História</a></li>
@@ -17,24 +16,24 @@ const Footer = () => {
             </ul>
           </li>
           <li className="dropdown">
-            <a href="#solucoes">Soluções</a>
+            <a href="#solucoes">Soluções <FaChevronDown /></a>
             <ul className="dropdown-content">
               <li><a href="#datacenter">Datacenter</a></li>
               <li><a href="#fabrica-software">Fábrica de Software</a></li>
               <li className="dropdown-submenu">
                 Telemetria e Controle
                 <ul className="submenu-content">
-                    <li><a href="#maquinas-equipamentos">Máquinas e Equipamentos</a></li>
-                    <li><a href="#rebanhos">Rebanhos</a></li>
-                    <li><a href="#gestao-ativos">Gestão de Ativos</a></li>
+                  <li><a href="#maquinas-equipamentos">Máquinas e Equipamentos</a></li>
+                  <li><a href="#rebanhos">Rebanhos</a></li>
+                  <li><a href="#gestao-ativos">Gestão de Ativos</a></li>
                 </ul>
-                </li>
+              </li>
               <li><a href="#geo">Geo</a></li>
               <li><a href="#micro-usinas">Micro Usinas</a></li>
             </ul>
           </li>
           <li className="dropdown">
-          <a href="#solucoes">Serviços</a>
+            <a href="#servicos">Serviços <FaChevronDown /></a>
             <ul className="dropdown-content">
               <li><a href="#servicos">Fazendas Conectadas</a></li>
             </ul>
