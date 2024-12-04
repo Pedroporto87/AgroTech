@@ -1,0 +1,23 @@
+$background-color: rgb(2, 42, 12);
+$font-color: rgba(206, 225, 162);
+$link-color: white;
+
+.section-header {
+    width: 100%;
+    background-color: $background-color; // Cor de fundo para destacar a seção
+    text-align: start;
+  
+    .title {
+      margin: 0;
+      padding: 10px 0 10px 20px ;
+      font-size: 1em;
+      color: $font-color;
+    }
+  
+    .description {
+      margin: 10px 0 0;
+      padding: 0 0 10px 20px ;
+      font-size: 1em;
+      color: $font-color;
+    }
+  }

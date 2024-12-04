@@ -22,7 +22,7 @@ import anatel from '../img/parceiros/anatel.jpeg'
 const partners = [
   { name: 'Spacevis', link: 'http://www.spacevis.tech', imgSrc: spaceVis },
   { name: 'Myriota', link: 'https://myriota.com', imgSrc: myriota },
-  { name: 'Mobili', link: 'https://parceiro2.com', imgSrc: mobili },
+  { name: 'Mobili', link: 'https://mobili.net.br', imgSrc: mobili },
   { name: 'Wiagro', link: 'https://wiagro.com', imgSrc: wiagro },
   { name: 'Hex360', link: 'https://www.hex360.com.br', imgSrc: hex360 },
   { name: 'SES', link: 'https://www.ses.com', imgSrc: ses },

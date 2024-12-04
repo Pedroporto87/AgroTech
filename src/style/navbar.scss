@@ -38,7 +38,7 @@ $padding: 1rem;
       align-items: center;
 
       &:hover {
-        color: green;
+        color: #A9CF46;
       }
 
       svg {
@@ -53,7 +53,7 @@ $padding: 1rem;
       .dropdown-content {
         display: none;
         position: absolute;
-        background-color: rgb(228, 235, 158);
+        background-color: white;
         min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
         z-index: 1;
@@ -69,7 +69,7 @@ $padding: 1rem;
 
           &:hover {
             background-color: $hover-bg-color;
-            color: white;
+            color: #A9CF46;
           }
         }
 
