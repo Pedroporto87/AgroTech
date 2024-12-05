@@ -3,7 +3,7 @@ import Title from './title'
 export const QuemSomos = () => {
   return (
     <>
-    <Title title={"(quem somos)"} description={"A Empresa"}/>
+    <Title title={"Quem Somos"} description={"A Empresa"} id={"a-empresa"}/>
       <section id='quem-somos'>
           <div className="conteudo">
               <p>O Agrotech é uma força transformadora no cenário das tecnologias aplicadas no agronegócio,
