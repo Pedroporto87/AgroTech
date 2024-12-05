@@ -1,4 +1,5 @@
 .telemetria {
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -28,8 +29,6 @@
       margin-bottom: 10px; // Espaçamento entre o título e a lista
     }
 
-    ol {
-      padding-left: 0; // Remove o padding padrão da lista
 
       li {
         margin-bottom: 10px; // Espaçamento entre os itens da lista
@@ -39,6 +38,6 @@
           margin-bottom: 5px; // Espaçamento entre o título e o texto do item
         }
       }
-    }
+    
   }
 }

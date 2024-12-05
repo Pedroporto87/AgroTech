@@ -1,4 +1,5 @@
-import '../style/datacenter.scss'; 
+import '../style/datacenter.scss';
+import Bovino from '../img/Imagem 04 - Telemetria Rebanhos.png' 
 import Title from './title';
 
 export const DataCenter = () => {
@@ -48,6 +49,23 @@ export const DataCenter = () => {
           conformidade, assegurando que todas as operações estejam alinhadas com os regulamentos vigentes
           </li>
         </ol>
+      </section>
+      <section className='telemetria-ol'>
+        <h1>Aplicações Tecnológicas do Agrotech:</h1>
+        <ul>
+          <li><strong>Máquinas e Implementos Agrícolas:</strong> Monitoramento avançado para maximizar o desempenho e minimizar o tempo de inatividade.</li>
+          <li><strong>Máquinas para Construção Civil:</strong> Gestão eficiente das operações em campo, otimizando o uso de equipamentos.</li>
+          <li><strong>Pivôs de Irrigação e Bombas d’água:</strong> Controle remoto e ajuste preciso para garantir a irrigação ideal e economia de água.</li>
+          <li><strong>Balanças e Motores:</strong> Supervisão em tempo real para garantir precisão e eficiência</li>
+          <li><strong>Silosbag:</strong> Monitoramento de condições para assegurar a qualidade e conservação dos grãos armazenados</li>
+        </ul>
+      </section >
+      <section className='telemetria-img'>
+      <img src={Bovino} alt="foto de bovino com brinco de rastreamento"/>
+      </section>
+      <section className='telemetria-text'>
+        <p>Com a tecnologia de telemetria da Agrotech, os agricultores têm em mãos uma ferramenta poderosa que não apenas melhora a produtividade e eficiência, mas também
+        promove a inovação contínua no setor agropecuário. Assim, tornamos o agronegócio mais competitivo, sustentável e preparado para os desafios futuros</p>
       </section>
     </section>
     </>
