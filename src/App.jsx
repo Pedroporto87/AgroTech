@@ -9,7 +9,6 @@ import './App.css'
 import { DataCenter } from "./components/dataCenter"
 import { FazendasConectadas } from "./components/fazendasConectadas"
 import { MaqEqui } from "./components/maq-equi"
-import { FabricaSoftware } from "./components/fabricaSoftware"
 import { Rebanhos } from './components/rebanhos'
 import { MicroUsinas } from "./components/microUsinas"
 import { Geo } from '../src/components/geo'
@@ -22,7 +21,6 @@ function App() {
       <QuemSomos />
       <Missao />
       <DataCenter />
-      <FabricaSoftware />
       <MaqEqui />
       <Rebanhos />
       <Geo />
