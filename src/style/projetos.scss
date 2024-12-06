@@ -1,0 +1,17 @@
+.projetos {
+    display: flex;
+    flex-direction: column; // Disposição em coluna
+    align-items: flex-start; // Alinha os itens no início
+    width: 100%; // Ocupa toda a largura disponível
+    padding: 20px; // Espaçamento interno para consistência
+    box-sizing: border-box;
+    .projetos-img{
+      display: flex;
+      justify-items: center;
+    }
+    .projetos-link{
+      margin-left: '5px';
+      color: '#007BFF'; 
+      text-decoration: 'none'
+    }
+  }

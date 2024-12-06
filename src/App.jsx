@@ -2,7 +2,7 @@ import Navbar from "./components/Navbar"
 import Banner from "./components/Banner"
 import Footer from "./components/Footer"
 import Contact from "./components/Contato"
-import Parceiros from './components/Parceiros'
+import { CooperTech } from './components/cooperTech'
 import { QuemSomos } from "./components/quemSomos"
 import { Missao } from "./components/missao"
 import './App.css'
@@ -12,6 +12,8 @@ import { DataCenter } from "./components/dataCenter"
 import { Rebanhos } from './components/rebanhos'
 import { MicroUsinas } from "./components/microUsinas"
 import { Geo } from '../src/components/geo'
+import { Connected } from "./components/connected"
+import { DsAgro } from "./components/dsAgro"
 
 function App() {
   return (
@@ -26,7 +28,9 @@ function App() {
       <FazendasConectadas />
       <MicroUsinas />
       <DataCenter />
-      <Parceiros/>
+      <CooperTech />
+      <Connected />
+      <DsAgro />
       <Contact />
       <Footer />
     </>
