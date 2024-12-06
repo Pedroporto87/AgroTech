@@ -1,68 +1,57 @@
-.servicos {
+.farm-1 {
+  display: flex;
+  flex-direction: row; // Define o contêiner como flexível
+  width: 100%; // Garante que ocupe toda a largura da tela
+
+  .farm-text-1 {
     display: flex;
-    flex-direction: row;
-    background-color: white; // Cor de fundo para a seção principal
-  
-    .servicos-esquerda {
-      flex: 2; // Ocupa 2 partes do espaço disponível
-      display: flex;
-      flex-direction: column;
-  
-      .servicos-titulo, .servicos-subtitle {
-        background-color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        font-size: 35px;
-        line-height: 1.5; // Ajuste para melhorar a legibilidade
-        padding: 10px; // Adiciona espaçamento interno
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px; // Adiciona algum espaçamento interno
+    height: auto;
+      h1 {
+        text-align: left;
       }
-  
-      .servicos-img {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: white;
-        padding: 0;
-  
-        img {
-          max-width: 100%;
-          height: auto;
-        }
-      }
-    }
-  
-    .servicos-direita {
-      flex: 1; // Ocupa 1 parte do espaço disponível
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between; // Distribui o espaço entre os elementos
-      align-self: stretch;
-      background-color: rgb(217, 219, 220);
-      padding: 20px; // Adiciona espaçamento interno
-  
-      .servicos-p {
-        flex: 1; // Permite que o conteúdo ocupe o espaço disponível
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        font-size: 24px;
-        
-        max-width: 100%;
-  
-        p {
-          margin-bottom: 12px;
-        }
-      }
-  
-      .servicos-ul {
-        ul {
-          list-style-type: disc;
-          padding-left: 20px; // Adiciona espaçamento à esquerda para a lista
-          font-size: 24px;
-          color: rgb(17, 91, 47)
-        }
-      }
+  }
+
+  .farm-img-1 {
+    display: flex;
+    width: 40%;
+    align-items: flex-start;
+    justify-content: flex-end;
+
+    img {
+      max-width: 100%;
+      height: auto;
     }
   }
+}
+.farm-2 {
+  display: flex;
+  flex-direction: column; // Disposição em coluna
+  align-items: flex-start; // Alinha os itens no início
+  width: 100%; // Ocupa toda a largura disponível
+  padding: 20px; // Espaçamento interno para consistência
+  box-sizing: border-box; // Inclui padding e border no cálculo de largura
+
+  .farm-text-2 {
+    width: 100%; // Ocupa toda a largura disponível
+    margin-bottom: 20px; // Espaçamento entre as seções
+  }
+
+  .farm-img-2 {
+    width: 100%; // Ocupa toda a largura disponível
+    display: flex;
+    justify-content: center; // Centraliza a imagem horizontalmente
+    margin-bottom: 20px; // Espaçamento entre as seções
+
+    img {
+      max-width: 100%; // Garante que a imagem não ultrapasse a largura do contêiner
+      height: auto; // Mantém a proporção da imagem
+    }
+  }
+
+  .farm-p {
+    width: 100%; // Ocupa toda a largura disponível
+  }
+}

@@ -1,62 +1,50 @@
-import usina1  from '../img/usina-1.png'
-import usina2  from '../img/usina-2.png'
-import usina3  from '../img/usina-3.png'
+import Title from './title'
 import '../style/microUsinas.scss'
+import Usina from '../img/usina-3.png'
+import Usina2 from '../img/usina-1.png'
 
 export const MicroUsinas = () => {
   return (
     <>
-    <section className='usina-header' id="micro-usinas">
-        <h1>Micro Usinas</h1>
-        <p>tratamento de água por ultra filtragem</p>
-    </section>
-    <section  className='micro-usina'>
-        <section className="usina-grid">
-            <section className="img-1">
-                <img src={usina1} alt="imagem de uma usina" />
+        <Title title={"Produtos e Serviços"} description={"Micro Usinas de Ultra Filtragem"} id={"micro-usinas"}/> 
+        <section className='micro-usinas'>
+            <p>A qualidade da água consumida por criações de animais, como frangos e suínos, é um fator crítico que afeta diretamente a saúde, o bem-estar e a produtividade das criações. A utilização
+            de tecnologias avançadas, como a Ultra filtragem por membranas, é essencial para garantir que a água fornecida seja de alta qualidade, livre de impurezas e adequada para o consumo
+            animal.
+            </p>
+            <h1>Importância da Água de Alta Qualidade na Criação de Animais:</h1>
+            <ol>
+                <li><strong>Saúde Animal:</strong> A água limpa e bem tratada ajuda a prevenir doenças e infecções que podem surgir devido à presença de agentes patogênicos na água. Isso é especialmente
+                importante em sistemas de produção intensiva, onde doenças podem se espalhar rapidamente entre os animais.
+                </li>
+                <li><strong>Desempenho e Crescimento:</strong> Animais que consomem água de alta qualidade tendem a ter melhor desempenho em termos de crescimento e conversão alimentar. Uma água livre
+                de contaminantes assegura que os nutrientes dos alimentos sejam mais eficazmente utilizados, promovendo maior ganho de peso e produtividade</li>
+                <li><strong>Redução de Perdas:</strong> A melhora na qualidade da água através da ultrafiltragem resulta em uma redução significativa de perdas na criação, pois diminui a incidência de problemas
+                de saúde que podem levar a mortes ou à necessidade de tratamentos caros.
+                </li>
+            </ol>
+            <section className='microusinas-img'>
+                <img src={Usina} alt="Estação de filtragem" />
             </section>
-            <section className="img-2">
-            <img src={usina2} alt="imagem de uma usina" />
-            </section>
-            <section className="img-3">
-            <img src={usina3} alt="imagem de uma usina" />
-            </section>
-        </section>
-    <section className="usina-text">
-    <section className='usina-p'>
-        <p>As plantas de ultrafiltração UF 7 são projetadas para tratamento de
-            água sbterrânea, água de superficie, água torrencias com turbidez
-            até 300NTU
-        </p>
-        <p>O tratamento padrão inclui pré filtração (Filtros de tela autolimpante),
-            skid's de membranas de ultrafiltração de 3° geração, limpeza de menbranas através de sopro de ar,
-            limpesas químicas, limpezas de recuperação CIP(Clean in Process)
-        </p>
-        <p>
-            Todas as manobras, tanto de operação como de limpeza são totalmente
-            automatizadas, sem a necessidade de operação local.
-        </p>
-    </section>
-    <section className='usina-ul'>
-        <section className='usina-uf7'>
-            <h1><strong>UF 7</strong></h1>
+            <h1>Vantagens da Ultrafiltragem por Membranas</h1>
+            <p>As plantas de ultrafiltração UF 7 são projetadas para o tratamento eficaz de diferentes fontes de água, como água subterrânea e de superfície, mesmo em condições de alta turbidez, até
+            300 NTU. O sistema de tratamento padrão inclui:
+            </p>
             <ul>
-                <li>capacidade de 7m³/h</li>
-                <li>atende de 500 a 700 pessoas</li>
+                <li>Pré-filtração com Filtros de Tela Autolimpante: Essa etapa inicial remove partículas maiores, preparando a água para a ultrafiltragem subsequente</li>
+                <li>Membranas de Ultrafiltração de 3ª Geração: Essas membranas de última geração são capazes de remover partículas finas e microorganismos, garantindo uma água de alta pureza</li>
+                <li>Processos de Limpeza Avançados: A limpeza das membranas é feita por sopro de ar, limpezas químicas e limpezas de recuperação CIP, mantendo a eficiência do sistema.
+                </li>
+                <li>Automação Completa: Todas as operações e processos de limpeza são totalmente automatizados, eliminando a necessidade de supervisão local constante e reduzindo a margem para
+erros humanos.
+</li>
             </ul>
+            <section className='microusinas-img'>
+                <img src={Usina2} alt="Unidade de filtragem" />
+            </section>
+            <p>Ao implementar sistemas de ultrafiltração por membranas, os produtores garantem uma água de alta qualidade que não apenas promove a saúde animal, mas também otimiza a
+            produção e eleva a rentabilidade da operação agropecuária. A tecnologia de ultrafiltragem é, portanto, um investimento estratégico que impacta positivamente toda a cadeia produtiva.</p>
         </section>
-        <section className='usina-itens'>
-        <h1><strong>Ideal para:</strong></h1>
-            <ul>
-                <li>Granjas(suínos/frango)</li>
-                <li>Frigoríficos</li>
-                <li>Fazendas</li>
-                <li>Pequenas Comunidades</li>
-            </ul>
-        </section>
-    </section>
-    </section>
-    </section>
-</>
+    </>
 )
 }
