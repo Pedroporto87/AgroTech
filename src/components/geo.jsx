@@ -1,58 +1,35 @@
 import '../style/geo.scss'
-import agrohex from '../img/plataforma-agrohex-cut.png'
-import geo1 from '../img/geo-1.png'
-import geo2 from '../img/geo-2.png'
-import geo3 from '../img/geo-3.png'
+import Title from './title'
+import Bovino from '../img/Imagem 04 - Telemetria Rebanhos.png'
 
 export const Geo = () => {
   return (
-    <section id='geo'>
+    <>
+    <Title title={"Produtos e Serviços"} description={"Geomonitoriamento"} id={"geomonitoramento"}/>
+    <section className='geo'>
         <section className="geo-white">
-            <h1>Geomonitoramento</h1>
-            <p>Gestão de Áreas Rurais</p>
-            <section className="geo-img">
-                <img src={agrohex} alt="plataforma agrohex" />
-            </section>
-            <section className='geo-ul'>
-                <ul>
-                    <li>148 satélites conectados</li>
-                    <li>Algorítmo de IA para o Agro, cobrindo os principais cultivos.</li>
-                    <li>Capacidade de processar propriedades em todo o território Nacional.</li>
-                    <li>98% das propriedades do Brasil já processadas</li>
-                    <li>Maior banco de dados do cadastro rural Brasileiro</li>
-                    <li>Geração de Relatório de Propriedade, Produção entre outros</li>
-                    <li>Reduz o tempo de relatórios de produção</li>
-                    <li>Relatório automatizado de Potencial Econômico Agrícola</li>
-                    <li>Atende a todas as certificações e normativas da LGPD</li>
-                </ul>
-            </section>
-            <section className='geo-card'>
-                <img src={ geo1 } alt="imagem de satelite" />
-                <img src={ geo2 } alt="imagem de satelite" />
-                <img src={ geo3 } alt="imagem de satelite" />
-            </section>
+            <p>A parceria entre Hex360 e Agrotech, através da AgroHex, transforma o cenário do
+                agronegócio ao oferecer soluções de geomonitoramento que são essenciais nos dias
+                de hoje. Em um mundo onde a precisão e a eficiência são cruciais, possuir o maior
+                banco de cadastro de propriedades rurais do Brasil coloca a AgroHex na vanguarda
+                da revolução agrícola</p>
+            <p>Com nossa plataforma digital avançada, você tem acesso a informações geográficas
+                detalhadas que são fundamentais para o planejamento estratégico. Em poucos
+                cliques, obtenha análises ricas e detalhadas em tempo real das atividades em sua
+                área de interesse. Este nível de monitoramento não apenas facilita a supervisão das
+                suas terras, mas também permite acompanhar de perto o que está sendo produzido,
+                avaliar a evolução ao longo do tempo e acessar dados críticos sobre a qualidade e a
+                saúde das culturas.</p>
+            <p>O geomonitoramento, com sua capacidade de fornecer insights precisos e
+            atualizados, é uma ferramenta indispensável para agricultores modernos que buscam
+            maximizar a produtividade e garantir práticas agrícolas sustentáveis. Com a AgroHex,
+            você tem a vantagem competitiva necessária para prosperar em um mercado em
+            constante transformação</p>
         </section>
         <section className="geo-green">
-            <p>
-                Camadas de informações de uso <br />
-                simples e prático para obter <br />
-                informações instantaneamente
-            </p>
-            <ul>
-                <li>NDVI - análise completa do vigor da cultura a partir 
-                    da identificação da atividade foto</li>
-                <li>NDWI - identificação da quantidade de umidade presente na plantação</li>
-                <li>NBR - visão completa da áreas queimadas com estimativa da gravidade do fogo</li>
-                <li>NPCRI - identificação e análise de coberturas de gelo e neve nas áreas cultivadas</li>
-                <li>NDMI - precisão para identificar mudanças sutis na umidade de plantações,
-                    o que torna perfeito na avaliação de riscos de incêndio. 
-                </li>
-                <li>AVI - monitoramento detalhado de variações de colheita com identificação 
-                    de diferentes tipos de vegetação e extratos de características fenológicas</li>
-                <li>BSI - visão completa de variações de solo e composições minerais, 
-                    utilizadas para mapeamento de solo e identificação de culturas</li>
-            </ul>
+            <img src={Bovino} alt="foto de bovino com brinco de rastreamento"/>
         </section>
     </section>
+    </>
   )
 }

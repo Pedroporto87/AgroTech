@@ -22,8 +22,8 @@ function App() {
       <Missao />
       <DataCenter />
       <Rebanhos />
-      <MaqEqui />
       <Geo />
+      <MaqEqui />
       <MicroUsinas />
       <FazendasConectadas />
       <Parceiros/>
