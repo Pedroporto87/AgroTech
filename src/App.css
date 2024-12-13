@@ -1,6 +1,8 @@
+
+
 @font-face {
-  font-family: 'Nunito';
-  src: url(../src/style/font/Nunito-VariableFont_wght.ttf);
+  font-family: 'Ubuntu';
+  src: url(../src/style/font/Ubuntu/Ubuntu-Medium.ttf);
 }
 
 html {
@@ -8,7 +10,7 @@ html {
   }
   
   body {
-    font-family: 'Nunito';
+    font-family: 'Ubuntu';
     margin: 0;
     padding: 0;
   }

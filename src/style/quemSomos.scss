@@ -12,15 +12,15 @@ section {
   
     .conteudo {
       width: 80%;
-      margin: 25px;
-      border-left: 1px green solid;
+      // margin: 15px;
 
       p {
-        padding: 20px;
+        // padding: 10px;
         width: 100%;
-        line-height: 30px;
         text-align: inherit; // Ocupa toda a largura
-        font-weight: 500;
+        font-size: 1.2rem;
+        font-weight: 600;
+        word-spacing: 3px;
       }
     }
   
@@ -28,5 +28,8 @@ section {
       width: 80%;
       display: flex;
       justify-content: flex-end;
+      font-size: 1.2rem;
+      font-weight: 600;
+      word-spacing: 3px;
     }
   }

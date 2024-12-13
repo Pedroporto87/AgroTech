@@ -1,10 +1,11 @@
 import { FaChevronDown } from "react-icons/fa6";
 import '../style/navbar.scss';
+import Logo from '../img/logo.jpeg'
 
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <h1>Logo</h1>
+      <img src={Logo} className='nav-img' alt="logo da Agrotech"/>
       <ul className="nav-links">
         <li className="dropdown">
           <a href="#quem-somos">Quem Somos <FaChevronDown /></a>

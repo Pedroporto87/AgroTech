@@ -1,6 +1,6 @@
-$navbar-bg-color: rgb(2, 42, 12);
+$navbar-bg-color: white;
 $dropdown-bg-color: rgba(206, 225, 162);
-$link-color: white;
+$link-color: #056E46;
 $hover-bg-color: rgb(25, 92, 51);
 $padding: 1rem;
 
@@ -25,6 +25,9 @@ $padding: 1rem;
   top: 0;
   z-index: 1000;
   @include flex-center();
+  .nav-img{
+    max-width: 20%;
+  }
 
   .nav-links {
     list-style: none;
@@ -36,6 +39,7 @@ $padding: 1rem;
       position: relative;
       display: flex;
       align-items: center;
+      font-weight: 600;
 
       &:hover {
         color: #A9CF46;

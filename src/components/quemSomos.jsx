@@ -3,12 +3,12 @@ import Title from './title'
 export const QuemSomos = () => {
   return (
     <>
-    <Title title={"Quem Somos"} description={"A Empresa"} id={"a-empresa"}/>
+    <Title title={"A Empresa"} description={"A Empresa"} id={"a-empresa"}/>
       <section id='quem-somos'>
           <div className="conteudo">
               <p>O Agrotech é uma força transformadora no cenário das tecnologias aplicadas no agronegócio,
                 desenvolvido especificamentepara suprir as demandas do maior setor econômico do Brasil.
-                Situada em Brasília, capital estratégica no coraçãodo pais e berço do agronegócio nacional,
+                Situada em Brasília, capital estratégica no coração do pais e berço do agronegócio nacional,
                 a Agrotech é uma empresa 100% brasileira comprometida em impulsionar a inovação e a tecnologia no campo
               </p>
               <p>Nossa missão é fornecer soluções tecnológicas abrangentes que atendam toda a cadeia produtiva do agronegócio,
