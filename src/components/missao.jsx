@@ -8,7 +8,7 @@ export const Missao = () => {
         <Title title={"Quem Somos"}  id={"missao-visao-valores"}/>
         <section id='missao-valores' className='missao'>
             <section className='card'>
-                <img src={Figura}/>
+                <img src={Figura} alt='imagem' />
                 <h1>Missão</h1>
                 <p>Incentivar o agronegócio brasileiro
                     através de tecnologia inovadora e
@@ -20,19 +20,7 @@ export const Missao = () => {
                 </p>
             </section>
             <section className='card'>
-                <img src={Figura}/>
-                <h1>Visão</h1>
-                <p>Ser reconhecida globalmente como
-                    líder em inovação tecnológica para
-                    o agronegócio, impulsionando
-                    práticas sustentáveis e
-                    colaborativas que garantam o
-                    futuro do setor e o bem-estar das
-                    comunidades agrícolas
-                </p>
-            </section>
-            <section className='card'>
-                <img src={Figura}/>
+                <img src={Figura} alt='imagem'/>
                 <h1>Valores</h1>
             <ul>
                 <li>
@@ -60,6 +48,18 @@ export const Missao = () => {
                 dos clientes.
                 </li>
             </ul>
+            </section>
+            <section className='card'>
+                <img src={Figura} alt='imagem' />
+                <h1>Visão</h1>
+                <p>Ser reconhecida globalmente como
+                    líder em inovação tecnológica para
+                    o agronegócio, impulsionando
+                    práticas sustentáveis e
+                    colaborativas que garantam o
+                    futuro do setor e o bem-estar das
+                    comunidades agrícolas
+                </p>
             </section>
             
         </section>

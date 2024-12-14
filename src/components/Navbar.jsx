@@ -11,7 +11,7 @@ const Navbar = () => {
           <a href="#quem-somos">Quem Somos <FaChevronDown /></a>
           <ul className="dropdown-content">
             <li><a href="#a-empresa">A Empresa</a></li>
-            <li><a href="#missao-visao-valores">Missão, Visão e Valores</a></li>
+            <li><a href="#missao-visao-valores">Missão, Valores e Visão</a></li>
           </ul>
         </li>
         <li className="dropdown">

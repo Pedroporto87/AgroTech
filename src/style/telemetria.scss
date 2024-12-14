@@ -1,0 +1,74 @@
+.telemetria {
+  width: 100%; // Ajuste para ocupar a largura total do contêiner pai, se necessário
+  display: flex;
+  flex-direction: row; // Garante que os itens fiquem lado a lado
+  flex-wrap: wrap; // Permite que os itens se ajustem conforme a largura da tela
+  align-items: flex-start; // Alinha os itens ao topo
+ 
+  margin: 30px auto; // Centraliza o contêiner telemetria, ajuste conforme necessário
+  // gap: 20px; // Espaçamento entre as seções
+
+  .telemetria-text, .telemetria-ol-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; // Espaçamento entre os parágrafos ou itens da lista
+
+    p, h1, ol, li {
+      margin-bottom: 10px; // Uniformiza as margens para todos os elementos internos
+    }
+
+    h1 {
+      font-size: 1.5em;
+      
+
+    }
+
+    li strong {
+      display: block;
+      margin-bottom: 5px; // Espaçamento entre o título e o texto do item
+    }
+  }
+  .telemetria-text{
+    padding: 70px 20px;
+    width: 40%;
+  }
+  .telemetria-ol-1 {
+    width: 55%;
+  
+    .telemetria-ol-p {
+      align-items: center;
+      padding-left: 90px;
+      
+  
+      p {
+        font-size: 1.2rem; // Aumenta o tamanho da fonte do <p>
+      }
+    }
+  
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+  
+    .item-container {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 10px; // Espaçamento entre os itens
+  
+      img {
+        max-width: 30%; // Largura da imagem
+        height: auto; // Altura automática para manter a proporção
+      }
+  
+      li {
+        height: 75px;
+        background-color: rgb(17, 91, 47);
+        color: white;
+        padding: 20px 30px 20px 60px;
+        margin: 0; // Remove a margem padrão do li
+        clip-path: polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+        font-size: 0.9rem;
+      }
+    }
+  }
+  }
