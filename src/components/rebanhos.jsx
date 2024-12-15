@@ -1,14 +1,14 @@
 import '../style/rebanhos.scss'
 import Title from './title'
-import Bovino from '../img/Imagem 04 - Telemetria Rebanhos.png'
 import iconOx from '../img/icon-ox.png'
 import geoLoc from '../img/icon-loc.png'
 import graph from '../img/icon-graph.png'
+import Figura from '../img/Figura.jpg'
 
 export const Rebanhos = () => {
   return (
     <>
-    <Title title={"Produtos e Serviços"} description={"Gestão de Rebanhos"} id={"gestao-rebanhos"}/>
+    <Title title={"Gestão de Rebanho"} id={"gestao-rebanhos"}/>
     <section className='rebanhos' id='rebanhos'>
         <section className='rebanhos-text'>
         <p>A gestão eficiente de rebanhos bovinos é crucial para atender às exigentes normas internacionais de controle e
@@ -30,7 +30,7 @@ export const Rebanhos = () => {
             mas também vantagem competitiva.</p>
         </section>
         <section className='rebanhos-img'>
-            <img src={Bovino} alt="foto de bovino com brinco de rastreamento"/>
+            <img src={Figura} alt="figura"/>
         </section>
     </section>
     <section className='rebanhos-info'>

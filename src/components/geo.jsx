@@ -1,11 +1,11 @@
 import '../style/geo.scss'
 import Title from './title'
-import Bovino from '../img/Imagem 04 - Telemetria Rebanhos.png'
+import Figura from '../img/Figura.jpg'
 
 export const Geo = () => {
   return (
     <>
-    <Title title={"Produtos e Serviços"} description={"Geomonitoriamento"} id={"geomonitoramento"}/>
+    <Title title={"Geomonitoriamento"}  id={"geomonitoramento"}/>
     <section className='geo'>
         <section className="geo-white">
             <p>A parceria entre Hex360 e Agrotech, através da AgroHex, transforma o cenário do
@@ -27,7 +27,9 @@ export const Geo = () => {
             constante transformação</p>
         </section>
         <section className="geo-green">
-            <img src={Bovino} alt="foto de bovino com brinco de rastreamento"/>
+            <img src={Figura} alt="figura"/>
+            <img src={Figura} alt="figura"/>
+            <img src={Figura} alt="figura"/>
         </section>
     </section>
     </>
