@@ -1,5 +1,4 @@
 import '../style/telemetria.scss';
-import Bovino from '../img/Imagem 04 - Telemetria Rebanhos.png' 
 import Title from './title';
 import Figura from '../img/Figura.jpg'
 
@@ -70,23 +69,38 @@ export const Telemetria = () => {
         </ul>
       </section>
     </section>
-      <section className='telemetria-ol-2'>
-        <h1>Aplicações Tecnológicas do Agrotech:</h1>
-        <ul>
-          <li><strong>Máquinas e Implementos Agrícolas:</strong> Monitoramento avançado para maximizar o desempenho e minimizar o tempo de inatividade.</li>
-          <li><strong>Máquinas para Construção Civil:</strong> Gestão eficiente das operações em campo, otimizando o uso de equipamentos.</li>
-          <li><strong>Pivôs de Irrigação e Bombas d’água:</strong> Controle remoto e ajuste preciso para garantir a irrigação ideal e economia de água.</li>
-          <li><strong>Balanças e Motores:</strong> Supervisão em tempo real para garantir precisão e eficiência</li>
-          <li><strong>Silosbag:</strong> Monitoramento de condições para assegurar a qualidade e conservação dos grãos armazenados</li>
-        </ul>
-      </section >
-      <section className='telemetria-img'>
+    <section className='telemetria-ol-2'>
+      <h1>Aplicações Tecnológicas do Agrotech:</h1>
+      <ul>
+        <section>
+          <li><h1 className='telemetria-ol-2-h1'>Máquinas e Implementos Agrícolas:</h1> Monitoramento avançado para maximizar o desempenho e minimizar o tempo de inatividade.</li>
+          <img src={Figura} alt='figura' />
+        </section>
+        <section>
+          <li><h1 className='telemetria-ol-2-h1'>Máquinas para Construção Civil:</h1> Gestão eficiente das operações em campo, otimizando o uso de equipamentos.</li>
+          <img src={Figura} alt="figura" />
+        </section>
+        <section>
+          <li><h1 className='telemetria-ol-2-h1'>Pivôs de Irrigação e Bombas d’água:</h1> Controle remoto e ajuste preciso para garantir a irrigação ideal e economia de água.</li>
+          <img src={Figura} alt="figura" />
+        </section>
+        <section>
+        <li><h1 className='telemetria-ol-2-h1'>Balanças e Motores:</h1> Supervisão em tempo real para garantir precisão e eficiência.</li>
+        <img src={Figura} alt="figura" />
+        </section>
+        <section>
+          <li><h1 className='telemetria-ol-2-h1'>Silosbag:</h1> Monitoramento de condições para assegurar a qualidade e conservação dos grãos armazenados.</li>
+          <img src={Figura} alt="figura" />
+        </section>
+      </ul>
+    </section>
+      {/* <section className='telemetria-img'>
       <img src={Bovino} alt="foto de bovino com brinco de rastreamento"/>
-      </section>
-      <section className='telemetria-text'>
-        <p>Com a tecnologia de telemetria da Agrotech, os agricultores têm em mãos uma ferramenta poderosa que não apenas melhora a produtividade e eficiência, mas também
-        promove a inovação contínua no setor agropecuário. Assim, tornamos o agronegócio mais competitivo, sustentável e preparado para os desafios futuros</p>
-      </section>
+      </section> */}
+        {/* <section className='telemetria-text'>
+          <p>Com a tecnologia de telemetria da Agrotech, os agricultores têm em mãos uma ferramenta poderosa que não apenas melhora a produtividade e eficiência, mas também
+          promove a inovação contínua no setor agropecuário. Assim, tornamos o agronegócio mais competitivo, sustentável e preparado para os desafios futuros</p>
+        </section> */}
     </>
   );
 }

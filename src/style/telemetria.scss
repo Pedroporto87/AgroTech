@@ -41,7 +41,7 @@
       
   
       p {
-        font-size: 1.2rem; // Aumenta o tamanho da fonte do <p>
+        font-size: 1.2rem; 
       }
     }
   
@@ -65,10 +65,62 @@
         background-color: rgb(17, 91, 47);
         color: white;
         padding: 20px 30px 20px 60px;
-        margin: 0; // Remove a margem padrão do li
+        margin: 0; 
         clip-path: polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
         font-size: 0.9rem;
       }
     }
   }
   }
+  .telemetria-ol-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .telemetria-ol-2 h1 {
+    font-size: 1.5rem; 
+    margin-bottom: 20px; 
+  }
+  
+  .telemetria-ol-2 ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center; 
+    flex-direction: row;
+    // flex-wrap: wrap; /* Permite que os cards se ajustem em linhas adicionais se necessário */
+    padding: 0;
+    margin: 0 10px 0 10px;
+    gap: 10px; /* Espaçamento entre os cards */
+  }
+  .telemetria-ol-2 img{
+    max-width: 120%;
+  }
+  
+  .telemetria-ol-2 li {
+    background-color: rgb(17, 91, 47);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    width: 210px; /* Largura fixa para todos os cards */
+    height: 180px; /* Altura automática para acomodar o conteúdo */
+    clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%, 0 0);
+ 
+ 
+    .telemetria-ol-2-h1 {
+      font-size: 0.8rem;
+      margin-bottom: 10px;
+      color: white;
+    }
+    
+    .telemetria-ol-2 p {
+      margin: 0; /* Remove a margem padrão do p */
+      flex-grow: 1; /* Faz com que o <p> ocupe todo o espaço disponível, empurrando o conteúdo para baixo */
+    }
+  }
+  
+  
