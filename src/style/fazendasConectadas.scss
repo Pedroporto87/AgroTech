@@ -1,14 +1,17 @@
 .farm-1 {
   display: flex;
   flex-direction: row; // Define o contêiner como flexível
-  width: 100%; // Garante que ocupe toda a largura da tela
+  width: 100%;
+  align-items: flex-start;
 
   .farm-text-1 {
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 20px; // Adiciona algum espaçamento interno
     height: auto;
+    font-size: 1.2rem;
       h1 {
         text-align: left;
       }
@@ -16,9 +19,10 @@
 
   .farm-img-1 {
     display: flex;
-    width: 40%;
+    width: 50%;
+    height: auto;
     align-items: flex-start;
-    justify-content: flex-end;
+
 
     img {
       max-width: 100%;
@@ -26,21 +30,100 @@
     }
   }
 }
+
+.farm-polygon {
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    strong {
+      color: #333; // Ajuste para a cor desejada
+    }
+  }
+
+  ul {
+    width: 95%;
+    height: 220px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+
+    li {
+      background-color: rgb(17, 91, 47);
+      color: white;
+      padding: 20px;
+      margin-bottom: 10px;
+      position: relative; // Necessário para o clip-path
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+
+      h1{
+        font-size: 1rem;
+        font-weight: 400;
+        color: white;
+        padding: 10px;
+        margin: 0;
+      }
+      p{
+        font-size: 0.8rem;
+        color: white;
+        font-weight: 400;
+        padding: 0px 20px 20px 20px;
+      }
+
+      // Seta apontando para a direita
+      &:first-child {
+        width: 30%;
+        clip-path: polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+      }
+
+      // Hexágono
+      &:nth-child(2) {
+        width: 30%;
+        clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+      }
+
+      // Seta apontando para a esquerda (inverso da primeira)
+      &:nth-child(3) {
+        width: 30%;
+        clip-path: polygon(10% 0%, 100% 0%, 90% 50%, 100% 100%, 10% 100%, 0% 50%);
+      }
+    }
+  }
+}
+
 .farm-2 {
   display: flex;
-  flex-direction: column; // Disposição em coluna
+  flex-direction: row; // Disposição em coluna
   align-items: flex-start; // Alinha os itens no início
   width: 100%; // Ocupa toda a largura disponível
   padding: 20px; // Espaçamento interno para consistência
   box-sizing: border-box; // Inclui padding e border no cálculo de largura
 
   .farm-text-2 {
-    width: 100%; // Ocupa toda a largura disponível
-    margin-bottom: 20px; // Espaçamento entre as seções
+    width: 50%; // Ocupa metade da largura disponível
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+
+    ul {
+      list-style-type: none; // Remove os marcadores padrão
+      padding: 0; // Remove o padding padrão
+      margin: 0; // Remove a margem padrão
+
+      li {
+        margin-bottom: 30px; // Aumenta o espaçamento entre os itens da lista
+
+        span {
+          font-weight: bold; // Aplica um peso de fonte semelhante ao de um h1
+          // Se precisar de um valor específico de font-weight equivalente ao h1, ajuste conforme necessário
+        }
+      }
+    }
   }
 
   .farm-img-2 {
-    width: 100%; // Ocupa toda a largura disponível
+    width: 50%; // Ocupa metade da largura disponível
     display: flex;
     justify-content: center; // Centraliza a imagem horizontalmente
     margin-bottom: 20px; // Espaçamento entre as seções
@@ -49,9 +132,5 @@
       max-width: 100%; // Garante que a imagem não ultrapasse a largura do contêiner
       height: auto; // Mantém a proporção da imagem
     }
-  }
-
-  .farm-p {
-    width: 100%; // Ocupa toda a largura disponível
   }
 }
