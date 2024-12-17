@@ -3,10 +3,37 @@
   flex-direction: column; // Disposição em coluna
   align-items: flex-start; // Alinha os itens no início
   width: 100%; // Ocupa toda a largura disponível
-  padding: 20px; // Espaçamento interno para consistência
+  padding: 0px 20px 20px 20px; // Espaçamento interno para consistência
   box-sizing: border-box;
-  .microusinas-img{
-    display: flex;
-    justify-items: center;
+  .micro-usina-div {
+    display: flex; 
+    flex-direction: row;
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    justify-content: space-between; /* Distribui espaço entre os itens */
+}
+
+.micro-usina-div p,
+.micro-usina-div img {
+    flex: 1; /* Faz com que ambos os elementos ocupem o mesmo espaço */
+    max-width: 50%; /* Limita a largura máxima de cada elemento a 50% */
+    margin: 0;;
+    padding: 20px;
+}
+.micro-usina-div p{
+  font-size: 1.2rem;
+}
+.micro-usina-text {
+  padding: 30px; /* Adiciona um padding de 30px ao redor do conteúdo */
+
+   h1{
+    text-align: left;
+    font-size: 1.5rem;
   }
+
+   p {
+    font-weight: 300; /* Define o peso da fonte dos parágrafos como 300 */
+    margin: 0 0 10px 0; /* Adiciona uma margem inferior para espaçamento entre parágrafos */
+  }
+}
+
 }

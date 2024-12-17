@@ -2,27 +2,33 @@ import Title from './title'
 import '../style/microUsinas.scss'
 import Usina from '../img/usina-3.png'
 import Usina2 from '../img/usina-1.png'
+import Figura from '../img/Figura.jpg'
 
 export const MicroUsinas = () => {
   return (
     <>
-        <Title title={"Produtos e Serviços"} description={"Micro Usinas de Ultra Filtragem"} id={"micro-usinas"}/> 
+        <Title title={"Micro Usinas de Ultra Filtragem"} id={"micro-usinas"}/> 
         <section className='micro-usinas'>
-            <p>A qualidade da água consumida por criações de animais, como frangos e suínos, é um fator crítico que afeta diretamente a saúde, o bem-estar e a produtividade das criações. A utilização
-            de tecnologias avançadas, como a Ultra filtragem por membranas, é essencial para garantir que a água fornecida seja de alta qualidade, livre de impurezas e adequada para o consumo
-            animal.
-            </p>
-            <h1>Importância da Água de Alta Qualidade na Criação de Animais:</h1>
-            <ol>
-                <li><strong>Saúde Animal:</strong> A água limpa e bem tratada ajuda a prevenir doenças e infecções que podem surgir devido à presença de agentes patogênicos na água. Isso é especialmente
+            <section className='micro-usina-div'>
+                <p>A qualidade da água consumida por criações de animais, como frangos e suínos, é um fator crítico que afeta diretamente a saúde, o bem-estar e a produtividade das criações. A utilização
+                de tecnologias avançadas, como a Ultra filtragem por membranas, é essencial para garantir que a água fornecida seja de alta qualidade, livre de impurezas e adequada para o consumo
+                animal.
+                </p>
+                <img src={Figura} alt="figura" />
+            </section>
+            <section className='micro-usina-text'> 
+                <h1>Importância da Água de Alta Qualidade na Criação de Animais:</h1>
+                <p><strong>Saúde Animal:</strong> A água limpa e bem tratada ajuda a prevenir doenças e infecções que podem surgir devido à presença de agentes patogênicos na água. Isso é especialmente
                 importante em sistemas de produção intensiva, onde doenças podem se espalhar rapidamente entre os animais.
-                </li>
-                <li><strong>Desempenho e Crescimento:</strong> Animais que consomem água de alta qualidade tendem a ter melhor desempenho em termos de crescimento e conversão alimentar. Uma água livre
-                de contaminantes assegura que os nutrientes dos alimentos sejam mais eficazmente utilizados, promovendo maior ganho de peso e produtividade</li>
-                <li><strong>Redução de Perdas:</strong> A melhora na qualidade da água através da ultrafiltragem resulta em uma redução significativa de perdas na criação, pois diminui a incidência de problemas
+                </p>
+                <p><strong>Desempenho e Crescimento:</strong> Animais que consomem água de alta qualidade tendem a ter melhor desempenho em termos de crescimento e conversão alimentar. Uma água livre
+                de contaminantes assegura que os nutrientes dos alimentos sejam mais eficazmente utilizados, promovendo maior ganho de peso e produtividade</p>
+                <p><strong>Redução de Perdas:</strong> A melhora na qualidade da água através da ultrafiltragem resulta em uma redução significativa de perdas na criação, pois diminui a incidência de problemas
                 de saúde que podem levar a mortes ou à necessidade de tratamentos caros.
-                </li>
-            </ol>
+                </p>
+            </section>
+            
+            
             <section className='microusinas-img'>
                 <img src={Usina} alt="Estação de filtragem" />
             </section>
