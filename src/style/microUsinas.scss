@@ -35,5 +35,51 @@
     margin: 0 0 10px 0; /* Adiciona uma margem inferior para espaçamento entre parágrafos */
   }
 }
+.micro-usina-div-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; /* Alinha os itens no início da seção */
+  // justify-content: space-between;
+  // height: 100vh; /* Opcional: garante que a seção ocupe a altura total da tela */
 
+  .micro-usina-text-2 {
+    flex: 1;
+    max-width: 60%;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .micro-usina-text-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    h1 {
+      text-align: left;
+      font-size: 1.5rem;
+      margin-bottom: 60px;
+    }
+    p {
+      text-align: left;
+      font-weight: 300;
+      margin: 0 0 30px 0;
+    }
+  }
+
+  .microusinas-img {
+    display: flex;
+    align-items: center; /* Alinha a imagem verticalmente ao centro da section */
+    justify-content: center; /* Alinha a imagem horizontalmente ao centro da section */
+    width: 40%;
+
+    img {
+      padding-top: 60px;
+      width: 120%; /* Faz a imagem ocupar 50% da largura da section */
+      
+    }
+  }
+}
+.last-p{
+  padding: 20px;
+}
 }

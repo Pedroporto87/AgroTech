@@ -1,7 +1,5 @@
 import Title from './title'
 import '../style/microUsinas.scss'
-import Usina from '../img/usina-3.png'
-import Usina2 from '../img/usina-1.png'
 import Figura from '../img/Figura.jpg'
 
 export const MicroUsinas = () => {
@@ -27,29 +25,30 @@ export const MicroUsinas = () => {
                 de saúde que podem levar a mortes ou à necessidade de tratamentos caros.
                 </p>
             </section>
-            
-            
-            <section className='microusinas-img'>
-                <img src={Usina} alt="Estação de filtragem" />
+            <section className='micro-usina-div-2'>
+                <section className='micro-usina-text-2'>
+                    <h1>Vantagens da Ultrafiltragem por Membranas</h1>
+                    <p>As plantas de ultrafiltração UF 7 são projetadas para o tratamento eficaz de diferentes fontes de água, como água subterrânea e de superfície, mesmo em condições de alta turbidez, até
+                    300 NTU.
+                    </p>
+                    <p>O sistema de tratamento padrão inclui:</p>
+                    <p><strong>Pré-filtração com Filtros de Tela Autolimpante:</strong> Essa etapa inicial remove partículas maiores, preparando a água para a ultrafiltragem subsequente</p>
+                    <p><strong>Membranas de Ultrafiltração de 3ª Geração:</strong> Essas membranas de última geração são capazes de remover partículas finas e microorganismos, garantindo uma água de alta pureza</p>
+                    <p><strong>Processos de Limpeza Avançados:</strong> A limpeza das membranas é feita por sopro de ar, limpezas químicas e limpezas de recuperação CIP, mantendo a eficiência do sistema.
+                    </p>
+                    <p><strong>Automação Completa:</strong> Todas as operações e processos de limpeza são totalmente automatizados, eliminando a necessidade de supervisão local constante e reduzindo a margem para
+                    erros humanos.
+                    </p>
             </section>
-            <h1>Vantagens da Ultrafiltragem por Membranas</h1>
-            <p>As plantas de ultrafiltração UF 7 são projetadas para o tratamento eficaz de diferentes fontes de água, como água subterrânea e de superfície, mesmo em condições de alta turbidez, até
-            300 NTU. O sistema de tratamento padrão inclui:
-            </p>
-            <ul>
-                <li>Pré-filtração com Filtros de Tela Autolimpante: Essa etapa inicial remove partículas maiores, preparando a água para a ultrafiltragem subsequente</li>
-                <li>Membranas de Ultrafiltração de 3ª Geração: Essas membranas de última geração são capazes de remover partículas finas e microorganismos, garantindo uma água de alta pureza</li>
-                <li>Processos de Limpeza Avançados: A limpeza das membranas é feita por sopro de ar, limpezas químicas e limpezas de recuperação CIP, mantendo a eficiência do sistema.
-                </li>
-                <li>Automação Completa: Todas as operações e processos de limpeza são totalmente automatizados, eliminando a necessidade de supervisão local constante e reduzindo a margem para
-erros humanos.
-</li>
-            </ul>
-            <section className='microusinas-img'>
-                <img src={Usina2} alt="Unidade de filtragem" />
+                <section className='microusinas-img'>
+                    <img src={Figura} alt="figura" />
+                </section>
             </section>
-            <p>Ao implementar sistemas de ultrafiltração por membranas, os produtores garantem uma água de alta qualidade que não apenas promove a saúde animal, mas também otimiza a
-            produção e eleva a rentabilidade da operação agropecuária. A tecnologia de ultrafiltragem é, portanto, um investimento estratégico que impacta positivamente toda a cadeia produtiva.</p>
+            <div className='last-p'>     
+            <p><strong>Ao implementar sistemas de ultrafiltração por membranas, os produtores garantem uma água de alta qualidade que não apenas promove a saúde animal, mas também otimiza a
+            produção e eleva a rentabilidade da operação agropecuária.</strong></p>
+            <p><strong>A tecnologia de ultrafiltragem é, portanto, um investimento estratégico que impacta positivamente toda a cadeia produtiva.</strong></p>
+            </div>
         </section>
     </>
 )
