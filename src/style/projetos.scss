@@ -1,6 +1,6 @@
 .projetos {
     display: flex;
-    flex-direction: column; // Disposição em coluna
+    flex-direction: row; // Disposição em coluna
     align-items: flex-start; // Alinha os itens no início
     width: 100%; // Ocupa toda a largura disponível
     padding: 20px; // Espaçamento interno para consistência
@@ -8,6 +8,18 @@
     .projetos-img{
       display: flex;
       justify-items: center;
+      .coopertech-img{
+        max-width: 80%;
+      }
+      .dsagro-img{
+        max-width: 70%;
+      }
+    }
+    .projetos-text{
+      padding: 20px;
+      p{
+        margin-top: 0px;
+      }
     }
     .projetos-link{
       margin-left: '5px';

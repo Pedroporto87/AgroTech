@@ -33,22 +33,22 @@
       .datacenter-img-pt2 {
           display: flex;
           height: auto;
-          width: 50%; // Limita a largura da imagem a 50% da tela
+          width: 50%;
           img {
               width: 180%;
-              height: 600px; // Mantém a proporção da imagem
+              height: 600px;
           }
       }
 
       .datacenter-text-pt2 {
-          width: 50%; // Garante que o texto ocupe o restante do espaço
+          width: 50%; 
           p {
               font-weight: 200;
-              margin-bottom: 20px; // Remove margens para colar os parágrafos
+              margin-bottom: 20px;
           }
 
           .datacenter-p {
-              margin-bottom: 0; // Remove a margem inferior para colar no próximo <p>
+              margin-bottom: 0;
           }
       }
   }
@@ -56,8 +56,8 @@
   .divider {
     width: 70%;
     height: 2px; // Espessura da linha
-    background-color: rgb(17, 91, 47); // Cor da linha
-    margin: 20px auto; // Espaçamento acima e abaixo da divisória
+    background-color: rgb(17, 91, 47); 
+    margin: 20px auto; 
   }
   .datacenter-pt3 {
     display: flex;
@@ -68,15 +68,15 @@
     .datacenter-img-pt3 {
         display: flex;
         height: auto;
-        width: 50%; // Limita a largura da imagem a 50% da tela
+        width: 50%; 
         img {
             width: 100%;
-            height: auto; // Mantém a proporção da imagem
+            height: auto; 
         }
     }
 
     .datacenter-text-pt3 {
-        width: 50%; // Garante que o texto ocupe o restante do espaço
+        width: 50%;
 
         .datacenter-p {
             font-weight: 600;
