@@ -3,19 +3,97 @@
   flex-direction: column; // Disposição em coluna
   align-items: flex-start; // Alinha os itens no início
   width: 100%; // Ocupa toda a largura disponível
-  padding: 20px; // Espaçamento interno para consistência
+  padding: 0 20px; // Espaçamento interno para consistência
   box-sizing: border-box;
+  .datacenter-pt1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0 20px;
+    .datacenter-text-pt1 {
+      width: 2fr;
+      h1{
+        font-size: 1.5rem;
+      }
+    }
+  }
   .datacenter-img{
     display: flex;
     justify-items: center;
+    img{
+      width: 70%;
+    }
   }
-  .datacenter-p {
-    margin-bottom: 0px;
+    .datacenter-pt2 {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      padding: 0 20px;
+
+      .datacenter-img-pt2 {
+          display: flex;
+          height: auto;
+          width: 50%; // Limita a largura da imagem a 50% da tela
+          img {
+              width: 180%;
+              height: 600px; // Mantém a proporção da imagem
+          }
+      }
+
+      .datacenter-text-pt2 {
+          width: 50%; // Garante que o texto ocupe o restante do espaço
+          p {
+              font-weight: 200;
+              margin-bottom: 20px; // Remove margens para colar os parágrafos
+          }
+
+          .datacenter-p {
+              margin-bottom: 0; // Remove a margem inferior para colar no próximo <p>
+          }
+      }
+  }
   }
   .divider {
     width: 70%;
     height: 2px; // Espessura da linha
-    background-color: rgb(17, 91, 47);; // Cor da linha
+    background-color: rgb(17, 91, 47); // Cor da linha
     margin: 20px auto; // Espaçamento acima e abaixo da divisória
   }
-}
+  .datacenter-pt3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0 20px;
+
+    .datacenter-img-pt3 {
+        display: flex;
+        height: auto;
+        width: 50%; // Limita a largura da imagem a 50% da tela
+        img {
+            width: 100%;
+            height: auto; // Mantém a proporção da imagem
+        }
+    }
+
+    .datacenter-text-pt3 {
+        width: 50%; // Garante que o texto ocupe o restante do espaço
+
+        .datacenter-p {
+            font-weight: 600;
+            margin: 0px;
+            padding: 0px 15px 15px 15px;
+          }
+    }
+  }
+  .datacenter-opex{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    .datacenter-p{
+      width: 80%;
+      font-weight: 200;
+      span{
+        font-weight: 600;
+      }
+    }
+  }
