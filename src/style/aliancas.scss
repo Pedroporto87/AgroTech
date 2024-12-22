@@ -1,0 +1,26 @@
+
+.aliancas{
+    display: flex;
+    flex-direction: row; // Disposição em coluna
+    align-items: flex-start; // Alinha os itens no início
+    width: 100%; // Ocupa toda a largura disponível
+    padding: 20px; // Espaçamento interno para consistência
+    box-sizing: border-box;
+    
+    .aliancas-logos{
+        display: flex;
+        flex-direction: column;
+        img{
+            width: 25%;
+            padding: 10px;
+        }
+    }
+    .aliancas-img{
+        display: flex;
+        justify-items: center;
+        img{
+            max-width: 140%;
+        }
+      }
+    }
+

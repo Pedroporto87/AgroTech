@@ -14,6 +14,7 @@ import { MicroUsinas } from "./components/microUsinas"
 import { Geo } from '../src/components/geo'
 import { Connected } from "./components/connected"
 import { DsAgro } from "./components/dsAgro"
+import  Aliancas  from './components/aliancas'
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       <CooperTech />
       <Connected />
       <DsAgro />
+      <Aliancas />
       <Contact />
       <Footer />
     </>
