@@ -1,4 +1,4 @@
-import { FaLinkedin, FaInstagram, FaChevronDown } from 'react-icons/fa6';
+import { FaLinkedin, FaInstagram, FaChevronDown, FaFacebookF, FaYoutube } from 'react-icons/fa6';
 import '../style/footer.scss';
 
 const Footer = () => {
@@ -46,6 +46,8 @@ const Footer = () => {
         <div className="social-media">
           <a href="https://www.linkedin.com/company/agrotech-data-center/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
           <a href="https://www.instagram.com/agrotech.global/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+          <a href="https://www.instagram.com/agrotech.global/" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
+          <a href="https://www.instagram.com/agrotech.global/" target="_blank" rel="noopener noreferrer"><FaYoutube /></a>
         </div>
       </div>
     </footer>
