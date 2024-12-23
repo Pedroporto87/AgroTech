@@ -1,6 +1,6 @@
 import '../style/projetos.scss'
 import Title from './title'
-import ConnectedImg from '../img/connectedServices-1.PNG'
+import ConnectedImg from '../img/connectedServices-1.png'
 
 export const Connected = () => {
   return (
