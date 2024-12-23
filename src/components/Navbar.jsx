@@ -34,7 +34,7 @@ const Navbar = () => {
           </ul>
         </li>
         <li><a href="#aliancas">Alianças</a></li>
-        <li><a href="#politicas-empresariais">Políticas Empresariais</a></li>
+        {/* <li><a href="#politicas-empresariais">Políticas Empresariais</a></li> */}
         <li><a href="#contato">Contato</a></li>
       </ul>
     </nav>

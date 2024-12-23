@@ -1,5 +1,6 @@
-import { FaLinkedin, FaInstagram, FaChevronDown, FaFacebookF, FaYoutube } from 'react-icons/fa6';
+// import { FaLinkedin, FaInstagram, FaChevronDown, FaFacebookF, FaYoutube } from 'react-icons/fa6';
 import '../style/footer.scss';
+
 
 const Footer = () => {
   return (
@@ -7,48 +8,64 @@ const Footer = () => {
       <div className="footer-content">
         <ul className="footer-links">
           <li className="dropdown">
-            <a href="#quem-somos">Quem Somos <FaChevronDown /></a>
+            <p href="#quem-somos"><strong>Quem Somos</strong></p>
             <ul className="dropdown-content">
               <li><a href="#quem-somos">Quem Somos</a></li>
-              <li><a href="#historia">História</a></li>
-              <li><a href="#missao">Missão</a></li>
-              <li><a href="#valores">Valores</a></li>
+              <li><a href="#missao-visao-valores">Missão, Valores e Visão</a></li>
+              {/* <li><a href="#missao">Missão</a></li>
+              <li><a href="#valores">Valores</a></li> */}
             </ul>
           </li>
           <li className="dropdown">
-            <a href="#solucoes">Soluções <FaChevronDown /></a>
+            <p href="#solucoes"><strong>Produtos e Serviços</strong></p>
             <ul className="dropdown-content">
+              <li><a href="#gestao-rebanhos">Gestão de Rebanhos</a></li>
+              <li><a href="#geomonitoramento">Geomonitoramento</a></li>
+              <li><a href="#fabrica-softwares">Fábrica de Softwares</a></li>
+              <li><a href="#micro-usinas">Micro Usinas de Ultra Filtragem</a></li>
               <li><a href="#datacenter">Datacenter</a></li>
-              <li><a href="#fabrica-software">Fábrica de Software</a></li>
-              <li className="dropdown-submenu">
-                Telemetria e Controle
-                <ul className="submenu-content">
-                  <li><a href="#maquinas-equipamentos">Máquinas e Equipamentos</a></li>
-                  <li><a href="#rebanhos">Rebanhos</a></li>
-                  <li><a href="#gestao-ativos">Gestão de Ativos</a></li>
-                </ul>
-              </li>
-              <li><a href="#geo">Geo</a></li>
-              <li><a href="#micro-usinas">Micro Usinas</a></li>
+            </ul>  
+          </li>
+          <li className="dropdown">
+            <p href="#servicos"><strong>Projetos</strong></p>
+            <ul className="dropdown-content">
+              <li><a href="#coopertech">Coopertech</a></li>
+              <li><a href="#connected-services">Connected Services</a></li>
+              <li><a href="#ds-agro">DS Agro</a></li>
             </ul>
           </li>
           <li className="dropdown">
-            <a href="#servicos">Serviços <FaChevronDown /></a>
+            <p href="#servicos"><strong>Alianças</strong></p>
             <ul className="dropdown-content">
-              <li><a href="#servicos">Fazendas Conectadas</a></li>
+              <li><a href="#aliancas">Alianças</a></li>
+            </ul>
+          </li>
+          <li className="dropdown">
+            <p href="#servicos"><strong>Politicas Empresariais</strong></p>
+            <ul className="dropdown-content">
+              <li><a href="/">Privacidade - LGPD Compliance</a></li>
+              <li><a href="/">ESG</a></li>
+              <li><a href="/">Cookies</a></li>
+              <li><a href="/">Marketing</a></li>
+            </ul>
+          </li>
+          <li className="dropdown">
+            <p href="#servicos"><strong>Contato</strong></p>
+            <ul className="dropdown-content">
+              <li><a href="#contato">Contato</a></li>
             </ul>
           </li>
         </ul>
-        <div className="compliance-section">
+        {/* <div className="compliance-section">
           <a href="/politica-seguranca.pdf" download>Política de Segurança</a>
           <a href="/politica-compliance.pdf" download>Política de Compliance</a>
-        </div>
-        <div className="social-media">
+        </div> */}
+        {/* <div className="social-media">
           <a href="https://www.linkedin.com/company/agrotech-data-center/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
           <a href="https://www.instagram.com/agrotech.global/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
           <a href="https://www.instagram.com/agrotech.global/" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
           <a href="https://www.instagram.com/agrotech.global/" target="_blank" rel="noopener noreferrer"><FaYoutube /></a>
-        </div>
+        </div> */}
       </div>
     </footer>
   );

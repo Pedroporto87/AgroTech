@@ -1,118 +1,179 @@
-// Importar variáveis e mixins do navbar.scss
-@import './navbar.scss';
-
 .footer {
-  background-color: $navbar-bg-color;
-  color: $link-color;
-  padding: $padding;
-  @include flex-center();
+  background-color: #056E46;// Cor de fundo do rodapé
+  padding: 20px 0;
 
   .footer-content {
-    @include flex-center(space-between, flex-start);
-    flex-wrap: wrap;
-    width: 100%;
-    height: auto;
+    max-width: 100%; // Largura máxima do conteúdo do rodapé
+    margin: 0 auto; // Centraliza o conteúdo
+    display: flex;
+    justify-content: space-around; // Distribui os itens uniformemente
+    flex-wrap: wrap; // Permite que os itens quebrem linha se necessário
+  }
+
+  .footer-links {
     list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around; // Espaçamento uniforme entre os links principais
+    width: 100%; // Ocupa toda a largura disponível
 
-    .footer-links {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      
-      @include flex-center(flex-start);
+    .dropdown {
+      margin: 0 10px; // Espaçamento entre os itens
+      display: flex;
+      flex-direction: column; // Disposição em coluna para os links
 
-      a {
-        @include link-style;
-        position: relative;
-        display: flex;
-        align-items: center;
+      p {
+        color: white; // Cor do texto
+        font-family: 400;
 
-        &:hover {
-          background-color: $hover-bg-color;
-        }
-
-        svg {
-          margin-left: 5px;
-          transition: transform 0.3s;
-        }
       }
 
-      .dropdown {
-        position: relative;
+      .dropdown-content {
+        display: flex; // Exibe os links em coluna
+        flex-direction: column; // Disposição em coluna
+        padding: 0; // Remove o padding padrão
+        margin-top: 10px; // Espaçamento entre o link principal e os links abaixo
+        text-decoration: none;
 
-        .dropdown-content {
-          display: none;
-          position: absolute;
-          background-color: rgb(228, 235, 158);
-          min-width: 160px;
-          box-shadow: 0px -8px 16px 0px rgba(0, 0, 0, 0.2);
-          z-index: 1;
-          bottom: 100%;
-          list-style: none; 
-          padding: 0;
+        li {
+          padding: 8px 0; // Espaçamento interno dos itens do dropdown
+          text-align: left; // Alinha o texto à esquerda
+          list-style: none;
+          
 
           a {
-            @include link-style;
-            display: block;
-            padding: 12px 16px;
-            color: $hover-bg-color;
-
+            color: white; // Cor do texto dos links do dropdown
+            text-decoration: none; // Remove o sublinhado dos links
+            display: block; // Garante que o link ocupe toda a área clicável
             &:hover {
-              background-color: $hover-bg-color;
-              color: white;
+            color:rgba(206, 225, 162);
+            text-decoration: underline;
             }
           }
 
-          .dropdown-submenu {
-            color: $hover-bg-color;
-          }
-        }
 
-        &:hover .dropdown-content {
-          display: block;
-        }
-
-        &:hover > a svg {
-          transform: rotate(180deg);
-        }
-      }
-    }
-
-    .social-media {
-      @include flex-center(center);
-
-      a {
-        @include link-style;
-        // margin: 0 10px;
-        font-size: 30px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-
-        svg {
-          transition: box-shadow 0.3s ease;
-
-          &:hover {
-            color: #A9CF46;
-          }
-        }
-      }
-    }
-
-    .compliance-section {
-      text-align: center;
-
-      a {
-        @include link-style;
-        margin: 10px 10px;
-        padding: 8px 16px;
-        border-radius: 5px;
-
-        &:hover {
-          color: green;
         }
       }
     }
   }
 }
+
+// // Importar variáveis e mixins do navbar.scss
+// @import './navbar.scss';
+
+// .footer {
+//   background-color: $navbar-bg-color;
+//   color: $link-color;
+//   padding: $padding;
+//   @include flex-center();
+
+//   .footer-content {
+//     @include flex-center(space-between, flex-start);
+//     flex-wrap: wrap;
+//     width: 100%;
+//     height: auto;
+//     list-style: none;
+
+//     .footer-links {
+//       list-style: none;
+//       padding: 0;
+//       margin: 0;
+      
+//       @include flex-center(flex-start);
+
+//       a {
+//         @include link-style;
+//         position: relative;
+//         display: flex;
+//         align-items: center;
+
+//         &:hover {
+//           background-color: $hover-bg-color;
+//         }
+
+//         svg {
+//           margin-left: 5px;
+//           transition: transform 0.3s;
+//         }
+//       }
+
+//       .dropdown {
+//         position: relative;
+
+//         .dropdown-content {
+//           display: none;
+//           position: absolute;
+//           background-color: rgb(228, 235, 158);
+//           min-width: 160px;
+//           box-shadow: 0px -8px 16px 0px rgba(0, 0, 0, 0.2);
+//           z-index: 1;
+//           bottom: 100%;
+//           list-style: none; 
+//           padding: 0;
+
+//           a {
+//             @include link-style;
+//             display: block;
+//             padding: 12px 16px;
+//             color: $hover-bg-color;
+
+//             &:hover {
+//               background-color: $hover-bg-color;
+//               color: white;
+//             }
+//           }
+
+//           .dropdown-submenu {
+//             color: $hover-bg-color;
+//           }
+//         }
+
+//         &:hover .dropdown-content {
+//           display: block;
+//         }
+
+//         &:hover > a svg {
+//           transform: rotate(180deg);
+//         }
+//       }
+//     }
+
+//     .social-media {
+//       @include flex-center(center);
+
+//       a {
+//         @include link-style;
+//         // margin: 0 10px;
+//         font-size: 30px;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         gap: 10px;
+
+//         svg {
+//           transition: box-shadow 0.3s ease;
+
+//           &:hover {
+//             color: #A9CF46;
+//           }
+//         }
+//       }
+//     }
+
+//     .compliance-section {
+//       text-align: center;
+
+//       a {
+//         @include link-style;
+//         margin: 10px 10px;
+//         padding: 8px 16px;
+//         border-radius: 5px;
+
+//         &:hover {
+//           color: green;
+//         }
+//       }
+//     }
+//   }
+// }
