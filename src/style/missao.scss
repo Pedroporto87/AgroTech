@@ -17,8 +17,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 20px;
-    box-sizing: border-box; // Inclui padding no cálculo da largura e altura
+    padding: 15px;
+    box-sizing: border-box;
+    
     
     img {
       max-width: 100%;
@@ -32,26 +33,31 @@
     }
 
     p, ul {
-      width: 100%; // Ocupa toda a largura disponível
+      width: 100%;
+      height: auto; // Ocupa toda a largura disponível
       line-height: 1.5;
       padding: 15px;
       margin: 0; // Remove margens padrão
-      box-sizing: border-box; // Inclui padding no cálculo da largura e altura
+      box-sizing: border-box;
+      border-radius: 7px;
       color: white;
       background-color: #056E46;
-      font-size: 0.7rem;
+      font-size: 0.8rem;
       word-spacing: 3px;
     }
-
+    p{
+      font-weight: 200;
+    }
 
     ul {
-      padding: 30px;
+      
+      // padding: 0px 30px;
      
 
       li {
         margin-bottom: 10px; // Espaçamento entre os itens da lista
         color: white;
-        list-style: disc
+        list-style: none
       }
     }
   }

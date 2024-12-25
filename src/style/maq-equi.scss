@@ -28,7 +28,7 @@
       display: flex;
       flex-direction: row;
       width: 100%;
-      padding: 0 20px;
+      // padding: 0 20px;
 
       .datacenter-img-pt2 {
           display: flex;
@@ -42,6 +42,7 @@
 
       .datacenter-text-pt2 {
           width: 50%; 
+          padding: 20px;
           p {
               font-weight: 200;
               margin-bottom: 20px;

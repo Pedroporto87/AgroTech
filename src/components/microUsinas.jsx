@@ -14,16 +14,19 @@ export const MicroUsinas = () => {
                 </p>
                 <img src={Figura} alt="figura" />
             </section>
-            <section className='micro-usina-text'> 
-                <h1>Importância da Água de Alta Qualidade na Criação de Animais:</h1>
-                <p><strong>Saúde Animal:</strong> A água limpa e bem tratada ajuda a prevenir doenças e infecções que podem surgir devido à presença de agentes patogênicos na água. Isso é especialmente
-                importante em sistemas de produção intensiva, onde doenças podem se espalhar rapidamente entre os animais.
-                </p>
-                <p><strong>Desempenho e Crescimento:</strong> Animais que consomem água de alta qualidade tendem a ter melhor desempenho em termos de crescimento e conversão alimentar. Uma água livre
-                de contaminantes assegura que os nutrientes dos alimentos sejam mais eficazmente utilizados, promovendo maior ganho de peso e produtividade</p>
-                <p><strong>Redução de Perdas:</strong> A melhora na qualidade da água através da ultrafiltragem resulta em uma redução significativa de perdas na criação, pois diminui a incidência de problemas
-                de saúde que podem levar a mortes ou à necessidade de tratamentos caros.
-                </p>
+            <section className='micro-usina-text'>
+                <section className='micro-usina-text-div'>
+                    <h1>Importância da Água de Alta Qualidade na Criação de Animais:</h1>
+                    <p><strong>Saúde Animal:</strong> A água limpa e bem tratada ajuda a prevenir doenças e infecções que podem surgir devido à presença de agentes patogênicos na água. Isso é especialmente
+                    importante em sistemas de produção intensiva, onde doenças podem se espalhar rapidamente entre os animais.
+                    </p>
+                    <p><strong>Desempenho e Crescimento:</strong> Animais que consomem água de alta qualidade tendem a ter melhor desempenho em termos de crescimento e conversão alimentar. Uma água livre
+                    de contaminantes assegura que os nutrientes dos alimentos sejam mais eficazmente utilizados, promovendo maior ganho de peso e produtividade</p>
+                    <p><strong>Redução de Perdas:</strong> A melhora na qualidade da água através da ultrafiltragem resulta em uma redução significativa de perdas na criação, pois diminui a incidência de problemas
+                    de saúde que podem levar a mortes ou à necessidade de tratamentos caros.
+                    </p>
+                </section>
+
             </section>
             <section className='micro-usina-div-2'>
                 <section className='micro-usina-text-2'>

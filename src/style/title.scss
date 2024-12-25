@@ -3,12 +3,12 @@ $font-color: rgba(206, 225, 162);
 $link-color: white;
 
 .section-header {
-    width: 80%;
+    width: 100%;
     background-color: white; // Cor de fundo para destacar a seção
-    text-align: start;
+    text-align: center;
   
     .title {
-      margin-left: 100px ;
+      // margin-left: 100px ;
       // padding: 10px 0 10px 60px ;
       font-size: 2.5em;
       color: $background-color;

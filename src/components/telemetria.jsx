@@ -1,11 +1,12 @@
 import '../style/telemetria.scss';
 import Title from './title';
-import Figura from '../img/Figura.jpg'
+
+import FiguraBg from '../img/Figura-removebg-preview.png'
 
 export const Telemetria = () => {
   return (
     <>
-    <Title title={"Telemetria e Controle"} description={"Telemetria e Controle"} id={"telemetria-controle"} />
+    <Title title={"Telemetria e Controle"} id={"telemetria-controle"} />
     <section className='telemetria'>
       <section className='telemetria-text'>
         <p>
@@ -28,7 +29,7 @@ export const Telemetria = () => {
         </section>
         <ul>
           <section className="item-container">
-            <img src={Figura} alt="figura" />
+            <img src={FiguraBg} alt="figura" />
             <li>
             Eficiência Operacional: A telemetria permite o monitoramento contínuo e detalhado de máquinas e
             implementos agrícolas, como tratores e colheitadeiras. Isso resulta em uma operação mais eficiente, com
@@ -36,7 +37,7 @@ export const Telemetria = () => {
             </li>
           </section>
           <section className="item-container">
-            <img src={Figura} alt="figura" />
+            <img src={FiguraBg} alt="figura" />
             <li>
             Agricultura de Precisão: Sensores avançados possibilitam a coleta de dados em tempo real sobre as
             condições do solo, clima e desempenho das colheitas. Com isso, os agricultores podem tomar decisões mais
@@ -44,7 +45,7 @@ export const Telemetria = () => {
             </li>
           </section>
           <section className="item-container">
-            <img src={Figura} alt="figura" />
+            <img src={FiguraBg} alt="figura" />
             <li>
             Gerenciamento Remoto:As soluções de telemetria via satélite permitem o controle remoto de
             equipamentos como bombas d’água e pivôs de irrigação, assegurando que as operações críticas continuem
@@ -52,14 +53,14 @@ export const Telemetria = () => {
             </li>
           </section>
           <section className="item-container">
-          <img src={Figura} alt="figura" />
+          <img src={FiguraBg} alt="figura" />
           <li>
           Sustentabilidade: Ao melhorar a eficiência e reduzir o consumo de recursos, a telemetria contribui para
           práticas agrícolas mais sustentáveis, minimizando o impacto ambiental.
           </li>
           </section>
           <section className="item-container">
-          <img src={Figura} alt="figura" />
+          <img src={FiguraBg} alt="figura" />
           <li>
            Segurança e Conformidade:
            A telemetria também auxilia no acompanhamento de normas de segurança e
@@ -74,23 +75,23 @@ export const Telemetria = () => {
       <ul>
         <section>
           <li><h1 className='telemetria-ol-2-h1'>Máquinas e Implementos Agrícolas:</h1> Monitoramento avançado para maximizar o desempenho e minimizar o tempo de inatividade.</li>
-          <img src={Figura} alt='figura' />
+          <img src={FiguraBg} alt='figura' />
         </section>
         <section>
           <li><h1 className='telemetria-ol-2-h1'>Máquinas para Construção Civil:</h1> Gestão eficiente das operações em campo, otimizando o uso de equipamentos.</li>
-          <img src={Figura} alt="figura" />
+          <img src={FiguraBg} alt="figura" />
         </section>
         <section>
           <li><h1 className='telemetria-ol-2-h1'>Pivôs de Irrigação e Bombas d’água:</h1> Controle remoto e ajuste preciso para garantir a irrigação ideal e economia de água.</li>
-          <img src={Figura} alt="figura" />
+          <img src={FiguraBg} alt="figura" />
         </section>
         <section>
         <li><h1 className='telemetria-ol-2-h1'>Balanças e Motores:</h1> Supervisão em tempo real para garantir precisão e eficiência.</li>
-        <img src={Figura} alt="figura" />
+        <img src={FiguraBg} alt="figura" />
         </section>
         <section>
           <li><h1 className='telemetria-ol-2-h1'>Silosbag:</h1> Monitoramento de condições para assegurar a qualidade e conservação dos grãos armazenados.</li>
-          <img src={Figura} alt="figura" />
+          <img src={FiguraBg} alt="figura" />
         </section>
       </ul>
     </section>

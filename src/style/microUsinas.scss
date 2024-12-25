@@ -23,10 +23,17 @@
   font-size: 1.2rem;
 }
 .micro-usina-text {
-  padding: 30px; /* Adiciona um padding de 30px ao redor do conteúdo */
+  display: flex;
+  flex-direction: column; // Organiza os elementos em coluna
+  justify-content: center; // Centraliza verticalmente
+  align-items: center; // Centraliza horizontalmente
+  width: 100%;
 
-   h1{
-    text-align: left;
+  .micro-usina-text-div{
+    width: 80%;
+
+    h1{
+    text-align: center;
     font-size: 1.5rem;
   }
 
@@ -34,6 +41,9 @@
     font-weight: 300; /* Define o peso da fonte dos parágrafos como 300 */
     margin: 0 0 10px 0; /* Adiciona uma margem inferior para espaçamento entre parágrafos */
   }
+  }
+  
+
 }
 .micro-usina-div-2 {
   display: flex;
@@ -42,12 +52,7 @@
   // justify-content: space-between;
   // height: 100vh; /* Opcional: garante que a seção ocupe a altura total da tela */
 
-  .micro-usina-text-2 {
-    flex: 1;
-    max-width: 60%;
-    margin: 0;
-    padding: 20px;
-  }
+
 
   .micro-usina-text-2 {
     display: flex;
@@ -55,14 +60,14 @@
     align-items: flex-start;
 
     h1 {
-      text-align: left;
+      text-align: center;
       font-size: 1.5rem;
       margin-bottom: 60px;
     }
     p {
       text-align: left;
       font-weight: 300;
-      margin: 0 0 30px 0;
+      padding: 0 0 30px 0;
     }
   }
 
@@ -80,6 +85,8 @@
   }
 }
 .last-p{
+  // width: 80%;
+  // text-align: center;
   padding: 20px;
 }
 }
