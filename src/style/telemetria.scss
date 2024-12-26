@@ -3,7 +3,8 @@
   display: flex;
   flex-direction: row; // Garante que os itens fiquem lado a lado
   flex-wrap: wrap; // Permite que os itens se ajustem conforme a largura da tela
-  align-items: flex-start; // Alinha os itens ao topo
+  align-items: flex-start;
+  background-color: rgb(207, 226, 162);
  
   // padding: 30px auto; // Centraliza o contêiner telemetria, ajuste conforme necessário
   // gap: 20px; // Espaçamento entre as seções
@@ -31,6 +32,7 @@
     width: 40%;
   }
   .telemetria-ol-1 {
+    background-color: rgb(207, 226, 162);
     width: 50%;
   
     .telemetria-ol-p {
@@ -75,6 +77,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    background-color: rgb(207, 226, 162);
   
     h1 {
       font-size: 1.5rem;

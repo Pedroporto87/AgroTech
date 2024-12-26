@@ -4,7 +4,7 @@
 .contato {
   display: flex;
   flex-direction: row;
-  justify-content: space-between; // Garante que os elementos fiquem lado a lado
+  justify-content: space-between;
 
   .map-container {
       flex: 1; // Ocupa metade do espaço disponível

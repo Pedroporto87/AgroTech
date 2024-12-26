@@ -5,7 +5,7 @@ import FiguraBg from '../img/Figura-removebg-preview.png'
 export const Geo = () => {
   return (
     <>
-    <Title title={"Geomonitoriamento"}  id={"geomonitoramento"}/>
+    <Title title={"Geomonitoriamento"}  id={"geomonitoramento"} />
     <section className='geo'>
         <section className="geo-white">
             <p>A parceria entre Hex360 e Agrotech, através da AgroHex, transforma o cenário do
