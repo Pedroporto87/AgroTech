@@ -1,9 +1,8 @@
 .micro-usinas {
   display: flex;
   flex-direction: column; // Disposição em coluna
-  align-items: flex-start; // Alinha os itens no início
   width: 100%; // Ocupa toda a largura disponível
-  padding: 0px 20px 20px 20px; // Espaçamento interno para consistência
+  // padding: 0px 20px 20px 20px; // Espaçamento interno para consistência
   box-sizing: border-box;
   .micro-usina-div {
     display: flex; 
@@ -16,7 +15,7 @@
 .micro-usina-div img {
     flex: 1; /* Faz com que ambos os elementos ocupem o mesmo espaço */
     max-width: 50%; /* Limita a largura máxima de cada elemento a 50% */
-    margin: 0;;
+    margin: 0;
     padding: 20px;
 }
 .micro-usina-div p{
@@ -49,15 +48,13 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start; /* Alinha os itens no início da seção */
-  // justify-content: space-between;
-  // height: 100vh; /* Opcional: garante que a seção ocupe a altura total da tela */
-
-
+  background-color: rgba(206, 225, 162);
 
   .micro-usina-text-2 {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    padding-left: 20px;
 
     h1 {
       text-align: center;
@@ -67,7 +64,8 @@
     p {
       text-align: left;
       font-weight: 300;
-      padding: 0 0 30px 0;
+      margin: 0;
+      padding: 0 0 20px 0;
     }
   }
 
@@ -75,18 +73,20 @@
     display: flex;
     align-items: center; /* Alinha a imagem verticalmente ao centro da section */
     justify-content: center; /* Alinha a imagem horizontalmente ao centro da section */
-    width: 40%;
+    width: 60%;
 
     img {
       padding-top: 60px;
-      width: 120%; /* Faz a imagem ocupar 50% da largura da section */
+      width: 100%; /* Faz a imagem ocupar 50% da largura da section */
       
     }
   }
 }
 .last-p{
-  // width: 80%;
-  // text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  width: 80%;
   padding: 20px;
 }
 }

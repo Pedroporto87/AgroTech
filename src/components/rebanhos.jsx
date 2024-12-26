@@ -3,7 +3,7 @@ import Title from './title'
 import iconOx from '../img/icon-ox.png'
 import geoLoc from '../img/icon-loc.png'
 import graph from '../img/icon-graph.png'
-import Figura from '../img/Figura.jpg'
+import FiguraBg from '../img/Figura-removebg-preview.png'
 
 export const Rebanhos = () => {
   return (
@@ -30,7 +30,7 @@ export const Rebanhos = () => {
             mas também vantagem competitiva.</p>
         </section>
         <section className='rebanhos-img'>
-            <img src={Figura} alt="figura"/>
+            <img src={FiguraBg} alt="figura"/>
         </section>
     </section>
     <section className='rebanhos-info'>

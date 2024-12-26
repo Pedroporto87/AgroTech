@@ -1,6 +1,6 @@
 import '../style/geo.scss'
 import Title from './title'
-import Figura from '../img/Figura.jpg'
+import FiguraBg from '../img/Figura-removebg-preview.png'
 
 export const Geo = () => {
   return (
@@ -27,9 +27,9 @@ export const Geo = () => {
             constante transformação</p>
         </section>
         <section className="geo-green">
-            <img src={Figura} alt="figura"/>
-            <img src={Figura} alt="figura"/>
-            <img src={Figura} alt="figura"/>
+            <img src={FiguraBg} alt="figura"/>
+            <img src={FiguraBg} alt="figura"/>
+            <img src={FiguraBg} alt="figura"/>
         </section>
     </section>
     </>

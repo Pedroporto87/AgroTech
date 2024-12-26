@@ -1,7 +1,8 @@
 .geo {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 99%;
+    background-color: rgba(206, 225, 162);
   
     .geo-white {
       width: 50%;
@@ -43,7 +44,7 @@
       .geo-card {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
   
         img {

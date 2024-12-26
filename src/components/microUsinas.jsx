@@ -1,6 +1,7 @@
 import Title from './title'
 import '../style/microUsinas.scss'
 import Figura from '../img/Figura.jpg'
+import FiguraBg from '../img/Figura-removebg-preview.png'
 
 export const MicroUsinas = () => {
   return (
@@ -34,7 +35,7 @@ export const MicroUsinas = () => {
                     <p>As plantas de ultrafiltração UF 7 são projetadas para o tratamento eficaz de diferentes fontes de água, como água subterrânea e de superfície, mesmo em condições de alta turbidez, até
                     300 NTU.
                     </p>
-                    <p>O sistema de tratamento padrão inclui:</p>
+                    <p><strong>O sistema de tratamento padrão inclui:</strong></p>
                     <p><strong>Pré-filtração com Filtros de Tela Autolimpante:</strong> Essa etapa inicial remove partículas maiores, preparando a água para a ultrafiltragem subsequente</p>
                     <p><strong>Membranas de Ultrafiltração de 3ª Geração:</strong> Essas membranas de última geração são capazes de remover partículas finas e microorganismos, garantindo uma água de alta pureza</p>
                     <p><strong>Processos de Limpeza Avançados:</strong> A limpeza das membranas é feita por sopro de ar, limpezas químicas e limpezas de recuperação CIP, mantendo a eficiência do sistema.
@@ -44,14 +45,14 @@ export const MicroUsinas = () => {
                     </p>
             </section>
                 <section className='microusinas-img'>
-                    <img src={Figura} alt="figura" />
+                    <img src={FiguraBg} alt="figura" />
                 </section>
             </section>
             <div className='last-p'>     
-            <p><strong>Ao implementar sistemas de ultrafiltração por membranas, os produtores garantem uma água de alta qualidade que não apenas promove a saúde animal, mas também otimiza a
-            produção e eleva a rentabilidade da operação agropecuária.</strong></p>
-            <p><strong>A tecnologia de ultrafiltragem é, portanto, um investimento estratégico que impacta positivamente toda a cadeia produtiva.</strong></p>
-            </div>
+                <p><strong>Ao implementar sistemas de ultrafiltração por membranas, os produtores garantem uma água de alta qualidade que não apenas promove a saúde animal, mas também otimiza a
+                produção e eleva a rentabilidade da operação agropecuária.</strong></p>
+                <p><strong>A tecnologia de ultrafiltragem é, portanto, um investimento estratégico que impacta positivamente toda a cadeia produtiva.</strong></p>
+                </div>
         </section>
     </>
 )

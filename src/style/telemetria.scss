@@ -5,7 +5,7 @@
   flex-wrap: wrap; // Permite que os itens se ajustem conforme a largura da tela
   align-items: flex-start; // Alinha os itens ao topo
  
-  padding: 30px auto; // Centraliza o contêiner telemetria, ajuste conforme necessário
+  // padding: 30px auto; // Centraliza o contêiner telemetria, ajuste conforme necessário
   // gap: 20px; // Espaçamento entre as seções
 
   .telemetria-text, .telemetria-ol-1 {
@@ -75,51 +75,53 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-  }
   
-  .telemetria-ol-2 h1 {
-    font-size: 1.5rem; 
-    margin-bottom: 40px; 
-  }
-  
-  .telemetria-ol-2 ul {
-    list-style-type: none;
-    display: flex;
-    align-items: center; 
-    flex-direction: row;
-    flex-wrap: nowrap; /* Permite que os cards se ajustem em linhas adicionais se necessário */
-    padding: 0;
-    margin: 0 10px 0 10px;
-    gap: 10px; /* Espaçamento entre os cards */
-  }
-  .telemetria-ol-2 img{
-    max-width: 120%;
-  }
-  
-  .telemetria-ol-2 li {
-    background-color: rgb(17, 91, 47);
-    color: white;
-    padding: 20px;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    gap: 10px;
-    width: 210px; /* Largura fixa para todos os cards */
-    height: 180px; /* Altura automática para acomodar o conteúdo */
-    clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%, 0 0);
- 
- 
-    .telemetria-ol-2-h1 {
-      font-size: 0.8rem;
-      margin-bottom: 10px;
-      color: white;
+    h1 {
+      font-size: 1.5rem;
+      margin-bottom: 40px;
     }
-    
-    .telemetria-ol-2 p {
-      margin: 0; /* Remove a margem padrão do p */
-      flex-grow: 1; /* Faz com que o <p> ocupe todo o espaço disponível, empurrando o conteúdo para baixo */
+  
+    ul {
+      list-style-type: none;
+      display: flex;
+      flex-wrap: wrap; // Permite que os cards se ajustem em linhas adicionais se necessário
+      padding: 0;
+      margin: 0 10px;
+      gap: 10px; // Espaçamento entre os cards
+  
+      li {
+        background-color: rgb(17, 91, 47);
+        color: white;
+        padding: 20px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 10px;
+        width: 210px; // Largura fixa para todos os cards
+        height: auto; // Altura automática para acomodar o conteúdo
+        clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%, 0 0);
+  
+        .telemetria-ol-2-h1 {
+          font-size: 1rem;
+          margin-bottom: 20px;
+          color: white;
+          min-height: 40px;
+        }
+  
+        p {
+          margin: 0; // Remove a margem padrão do p
+          flex-grow: 1;
+          color: white;
+          font-size: 0.8rem;
+        }
+  
+        img {
+          max-width: 100%;
+          margin-top: 10px; // Espaçamento entre o texto e a imagem
+        }
+      }
     }
   }
   

@@ -71,30 +71,35 @@ export const Telemetria = () => {
       </section>
     </section>
     <section className='telemetria-ol-2'>
-      <h1>Aplicações Tecnológicas do Agrotech:</h1>
-      <ul>
-        <section>
-          <li><h1 className='telemetria-ol-2-h1'>Máquinas e Implementos Agrícolas:</h1> Monitoramento avançado para maximizar o desempenho e minimizar o tempo de inatividade.</li>
-          <img src={FiguraBg} alt='figura' />
-        </section>
-        <section>
-          <li><h1 className='telemetria-ol-2-h1'>Máquinas para Construção Civil:</h1> Gestão eficiente das operações em campo, otimizando o uso de equipamentos.</li>
-          <img src={FiguraBg} alt="figura" />
-        </section>
-        <section>
-          <li><h1 className='telemetria-ol-2-h1'>Pivôs de Irrigação e Bombas d’água:</h1> Controle remoto e ajuste preciso para garantir a irrigação ideal e economia de água.</li>
-          <img src={FiguraBg} alt="figura" />
-        </section>
-        <section>
-        <li><h1 className='telemetria-ol-2-h1'>Balanças e Motores:</h1> Supervisão em tempo real para garantir precisão e eficiência.</li>
-        <img src={FiguraBg} alt="figura" />
-        </section>
-        <section>
-          <li><h1 className='telemetria-ol-2-h1'>Silosbag:</h1> Monitoramento de condições para assegurar a qualidade e conservação dos grãos armazenados.</li>
-          <img src={FiguraBg} alt="figura" />
-        </section>
-      </ul>
-    </section>
+  <h1>Aplicações Tecnológicas do Agrotech:</h1>
+  <ul>
+    <li>
+      <h1 className='telemetria-ol-2-h1'>Máquinas e Implementos Agrícolas:</h1>
+      <p>Monitoramento avançado para maximizar o desempenho e minimizar o tempo de inatividade.</p>
+      <img src={FiguraBg} alt='figura' />
+    </li>
+    <li>
+      <h1 className='telemetria-ol-2-h1'>Máquinas para Construção Civil:</h1>
+      <p>Gestão eficiente das operações em campo, otimizando o uso de equipamentos.</p>
+      <img src={FiguraBg} alt="figura" />
+    </li>
+    <li>
+      <h1 className='telemetria-ol-2-h1'>Pivôs de Irrigação e Bombas d’água:</h1>
+      <p>Controle remoto e ajuste preciso para garantir a irrigação ideal e economia de água.</p>
+      <img src={FiguraBg} alt="figura" />
+    </li>
+    <li>
+      <h1 className='telemetria-ol-2-h1'>Balanças e Motores:</h1>
+      <p>Supervisão em tempo real para garantir precisão e eficiência.</p>
+      <img src={FiguraBg} alt="figura" />
+    </li>
+    <li>
+      <h1 className='telemetria-ol-2-h1'>Silosbag:</h1>
+      <p>Monitoramento de condições para assegurar a qualidade e conservação dos grãos armazenados.</p>
+      <img src={FiguraBg} alt="figura" />
+    </li>
+  </ul>
+</section>
       {/* <section className='telemetria-img'>
       <img src={Bovino} alt="foto de bovino com brinco de rastreamento"/>
       </section> */}

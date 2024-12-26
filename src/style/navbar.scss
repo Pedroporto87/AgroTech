@@ -20,23 +20,26 @@ $padding: 1rem;
 .navbar {
   background-color: $navbar-bg-color;
   color: $link-color;
-  padding: $padding;
+  width: 100%;
+  // padding: $padding;
   position: sticky;
   top: 0;
   z-index: 1000;
   @include flex-center();
   .nav-img{
     max-width: 20%;
+    padding: 10px;
   }
 
   .nav-links {
     list-style: none;
     @include flex-center(center);
+    padding: 0px;
 
     a {
       @include link-style;
       gap: 30px;
-      width: 9.375rem;
+      min-width: 9.375rem;
       // padding: 0 30px;
       position: relative;
       display: flex;
